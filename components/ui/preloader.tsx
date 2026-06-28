@@ -83,7 +83,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
 
   return (
     <motion.div
-      variants={slideUp}
+      variants={slideUp as any}
       initial="initial"
       animate={isExiting ? "exit" : "initial"}
       className="fixed inset-0 w-screen h-screen flex items-center justify-center bg-black z-99999999999"
@@ -101,7 +101,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
           </motion.p>
           <svg className="absolute top-0 w-full h-[calc(100%+300px)]">
             <motion.path
-              variants={curve}
+              variants={curve as any}
               initial="initial"
               animate={isExiting ? "exit" : "initial"}
               fill="#000000"
