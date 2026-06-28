@@ -7,7 +7,7 @@
 
 @theme {
   /* --color-bg-primary: #f0ebe4; */
-  --color-bg-primary: #e4e7ef;
+  --color-bg-primary: #f0f3fa;
   --color-primary-color: #36d5ff;
   --color-paragraph-color: #58595c;
   --color-gray-color: #a4a5a8;
@@ -204,6 +204,6 @@ span {
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
   }
 }

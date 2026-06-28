@@ -3,10 +3,13 @@ import MagneticWrapper from "./wrapper/MagneticWrapper";
 
 export default function Footer() {
   return (
-    <footer className="pt-24 pb-8 bg-[#1D1D1F] text-white/90">
+    <footer id="contact" className="pt-24 pb-8 bg-[#1D1D1F] text-white/90">
       <div className="w-[75%] mx-auto flex flex-col gap-20">
         <div className="flex flex-row justify-between w-full">
-          <a href="#" className="flex flex-row items-center group">
+          <a
+            href="https://www.instagram.com/dheysson.ss/"
+            className="flex flex-row items-center group"
+          >
             <span className="display-medium text-3xl! lg:text-6xl! text-white group-hover:text-blue-500 transition-colors duration-300">
               Vamos conversar
             </span>
@@ -17,7 +20,7 @@ export default function Footer() {
           </a>
           <MagneticWrapper className="ballon2 mr-40">
             <a
-              href="#projects"
+              href="https://www.instagram.com/dheysson.ss/"
               className="w-full h-full flex justify-center items-center"
             >
               Contate-me
@@ -32,14 +35,14 @@ export default function Footer() {
               <span>dheyssonsousasilva@gmail.com</span>
             </div>
             <div className="flex flex-row gap-4 justify-between w-full lg:w-auto">
-              <a href="#">Email</a>
-              <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
+              <a href="mailto:dheyssonsousasilva@gmail.com">Email</a>
+              <a href="https://www.instagram.com/dheysson.ss/">Instagram</a>
+              <a href="https://www.linkedin.com/in/dheysson/">LinkedIn</a>
             </div>
           </div>
           <div className="line bg-white/40!"></div>
           <span className="text-center">
-            © 2026 · Dheysson Souza - Marketing & Desenvolvedor
+            © 2026 · UX Designer & Desenvolvedor
           </span>
         </div>
       </div>

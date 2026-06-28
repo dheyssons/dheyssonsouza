@@ -58,7 +58,7 @@ export default function Home() {
                     <AnimatedBadge />
 
                     <span className="text-font-primary text-xl">
-                      SEU PARCEIRO DE NEGÓCIO
+                      LOCALIZADO NO BRASIL
                     </span>
                     {/* <Globe className="text-paragraph-color" size={16}></Globe> */}
                   </div>
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <div className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-40">
                 <SpinningText duration={10} radius={12}>
-                  Marketing - Desenvolvedor web - Marketing -
+                  - Desenvolvedor Web - UX/UI Designer
                 </SpinningText>
               </div>
             </div>
@@ -119,7 +119,7 @@ ser escolhido."
               </span>
             </h3>
             <div data-scroll data-scroll-speed="0.15">
-              <MagneticWrapper className="ballon mb-24 ml-10 lg:ml-0 lg:mb-48 lg:mr-40">
+              <MagneticWrapper className="ballon mb-24 ml-40 lg:ml-0 lg:mb-48 lg:mr-40">
                 <a
                   href="#projects"
                   className="w-full h-full flex justify-center items-center"
@@ -211,7 +211,6 @@ ser escolhido."
             />
             <ProjectCard
               isInProgress={true}
-              href="#"
               title="Silicium Solar Energie"
               image={SiliciumProjectImage}
               badges={[
@@ -225,14 +224,18 @@ ser escolhido."
               href="https://hygorfonseca.framer.website/"
               title="Hygor Fonseca - Fotógrafo"
               image={FonsecaProjectImage}
-              badges={["Desenvolvimento com Framer", "Animações scroll-based"]}
+              badges={[
+                "Desenvolvimento com Framer",
+                "Animações scroll-based",
+                "experimental",
+              ]}
             />
           </motion.div>
         </div>
       </section>
 
       <section className="mb-48 relative" id="about">
-        <div className="section flex flex-col gap-y-12">
+        <div className="section flex flex-col ">
           {/* top */}
           <div className="flex flex-col gap-16 lg:flex-row items-start justify-between z-10">
             {/* text */}
@@ -250,9 +253,9 @@ ser escolhido."
             </div>
 
             <div data-scroll data-scroll-speed="0.15">
-              <MagneticWrapper className="ballon mr-40 ml-10 lg:ml-0">
+              <MagneticWrapper className="ballon ml-40 lg:ml-0 lg:mr-40">
                 <a
-                  href="#projects"
+                  href="https://www.instagram.com/dheysson.ss/"
                   className="w-full h-full flex justify-center items-center"
                 >
                   Contate-me
@@ -261,25 +264,33 @@ ser escolhido."
             </div>
           </div>
 
-          <div className="flex flex-col gap-y-8">
+          <div className="flex flex-col gap-y-6">
             <p className="p max-w-prose">
-              Sou Dheysson, um web designer focado na criação de sites
-              estruturados que comunicam valor com clareza e consistência.
+              Muitas empresas excelentes perdem clientes todos os dias
+              simplesmente porque o site delas é confuso e não comunica o real
+              valor do que fazem. Se o seu cliente precisa adivinhar como você
+              pode ajudá-lo, ele vai embora.
             </p>
             <p className="p max-w-prose">
-              Crio e redesenho sites para pequenas e médias empresas que
-              precisam apresentar seus serviços de forma clara e facilitar o
-              contato dos clientes.
+              Eu sou o Dheysson, e ajudo pequenas e médias empresas a
+              transformarem essa realidade. Criamos e redesenhamos sites com uma
+              estrutura estratégica, onde a clareza da mensagem vem sempre em
+              primeiro lugar.
             </p>
             <p className="p max-w-prose">
-              Todo projeto começa com a organização das informações, a definição
-              da estrutura do site e o planejamento da navegação. O design é
-              construído sobre essa estrutura.
+              O processo é simples: primeiro, organizamos toda a sua informação;
+              depois, criamos uma navegação intuitiva; e, finalmente,
+              construímos um design premium e consistente sobre essa base
+              sólida.
+            </p>
+            <p className="p max-w-prose">
+              O resultado é um site que funciona como o seu melhor vendedor:
+              transmite autoridade imediata e facilita o caminho para o cliente
+              entrar em contato com você.
             </p>
           </div>
 
-          <div className="flex flex-col gap-4 opacity-70">
-            <span className="font-medium">HABILIDADES</span>
+          <div className="flex flex-col gap-4 opacity-70 mt-10">
             <div className="space-y-2">
               <div className="space-x-2 space-y-2">
                 <Badge>Marketing</Badge>

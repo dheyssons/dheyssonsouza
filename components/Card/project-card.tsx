@@ -8,7 +8,7 @@ type Props = {
   badges: string[];
   title: string;
   isInProgress?: boolean;
-  href: string;
+  href?: string;
   kpis?: any;
 };
 
@@ -95,25 +95,27 @@ export default function ProjectCard({
             alt="Dakwerken De Haes"
           />
 
-          <div className="w-14 h-14 overflow-hidden flex items-center justify-center absolute bottom-0 right-0 bg-bg-primary rounded-tl-md">
-            <motion.div animate={controls} className="">
-              <ArrowUpRight
-                className="text-font-primary "
-                width={40}
-                height={40}
-              />
-            </motion.div>
-            <motion.div
-              className="absolute -bottom-8 -left-8"
-              animate={controls}
-            >
-              <ArrowUpRight
-                className="text-font-primary "
-                width={40}
-                height={40}
-              />
-            </motion.div>
-          </div>
+          {href && (
+            <div className="w-14 h-14 overflow-hidden flex items-center justify-center absolute bottom-0 right-0 bg-bg-primary rounded-tl-md">
+              <motion.div animate={controls} className="">
+                <ArrowUpRight
+                  className="text-font-primary "
+                  width={40}
+                  height={40}
+                />
+              </motion.div>
+              <motion.div
+                className="absolute -bottom-8 -left-8"
+                animate={controls}
+              >
+                <ArrowUpRight
+                  className="text-font-primary "
+                  width={40}
+                  height={40}
+                />
+              </motion.div>
+            </div>
+          )}
         </a>
       </div>
     </motion.div>
