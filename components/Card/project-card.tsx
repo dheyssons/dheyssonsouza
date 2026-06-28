@@ -50,7 +50,7 @@ export default function ProjectCard({
         <div className="flex flex-col justify-between gap-y-10">
           <div className="flex flex-col items-start gap-6">
             {isInProgress && (
-              <Badge className="bg-[#f0e2ca]! text-[#f49e0e]! border-[#f1ce90]!">
+              <Badge className="bg-[#f0e2ca3a]! text-[#f49e0e]! border-[#f1ce90]!">
                 {" "}
                 <span className="text-xl leading-0">•</span> &nbsp;Em andamento
               </Badge>
@@ -87,11 +87,13 @@ export default function ProjectCard({
         <a
           href={href}
           onMouseOver={handleHover}
-          className="relative rounded-xl overflow-hidden h-fit"
+          className="rounded-xl overflow-hidden relative w-xl aspect-video"
         >
           <Image
+            data-scroll
+            data-scroll-speed="0.05"
             src={image}
-            className="w-xl hover:scale-105 transition-transform duration-300 ease-out"
+            className="w-xl hover:scale-105 transition-transform duration-300 ease-out absolute rounded-xl"
             alt="Dakwerken De Haes"
           />
 
