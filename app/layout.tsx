@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import LocomotiveScrollProvider from "@/app/components/scripts/locomotive-scroll";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
+import { Analytics } from "@vercel/analytics/next";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body className="bg-bg-primary font-inter ">
         <SmoothCursor />
         <LocomotiveScrollProvider>{children}</LocomotiveScrollProvider>
+        <Analytics />
       </body>
     </html>
   );
