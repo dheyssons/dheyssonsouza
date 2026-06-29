@@ -45,7 +45,7 @@ export default function ProjectCard({
       className="flex flex-col"
     >
       <div className="line z-10 mb-10"></div>
-      <div className="flex flex-col lg:flex-row justify-between gap-16">
+      <div className="flex flex-col lg:flex-row justify-between gap-6 md:gap-16">
         {/* text */}
         <div className="flex flex-col justify-between gap-y-10">
           <div className="flex flex-col items-start gap-6">
@@ -87,13 +87,13 @@ export default function ProjectCard({
         <a
           href={href}
           onMouseOver={handleHover}
-          className="rounded-xl overflow-hidden relative w-xl aspect-video"
+          className="rounded-xl overflow-hidden relative w-full md:w-xl aspect-video shadow-md "
         >
           <Image
             data-scroll
             data-scroll-speed="0.05"
             src={image}
-            className="w-xl hover:scale-105 transition-transform duration-300 ease-out absolute rounded-xl"
+            className="w-full hover:scale-105 transition-transform duration-300 ease-out absolute rounded-xl"
             alt="Dakwerken De Haes"
           />
 
