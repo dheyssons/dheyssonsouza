@@ -42,7 +42,7 @@ export default function RootLayout({
         geist.variable,
       )}
     >
-      <body className="bg-bg-primary font-inter ">
+      <body className="bg-bg-primary font-inter">
         <SmoothCursor />
         <LocomotiveScrollProvider>{children}</LocomotiveScrollProvider>
         <Analytics />

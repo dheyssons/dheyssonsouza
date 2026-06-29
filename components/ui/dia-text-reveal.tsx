@@ -127,7 +127,7 @@ export interface DiaTextRevealProps extends Omit<
 export function DiaTextReveal({
   text,
   colors = DEFAULT_COLORS,
-  textColor = "var(--foreground)",
+  textColor = "white",
   duration = 1.5,
   delay = 0,
   repeat = false,

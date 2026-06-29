@@ -26,6 +26,7 @@ import {
   ScrollVelocityContainer,
   ScrollVelocityRow,
 } from "@/components/ui/scroll-based-velocity";
+import GridLines from "@/components/SVGs/grid";
 
 export default function Home() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -36,18 +37,21 @@ export default function Home() {
 
   return (
     <div>
+      {/* <GridLines /> */}
+
       <Header />
 
       {showPreloader && <Preloader onComplete={handleComplete} />}
 
-      <section className="relative w-screen h-screen" id="hero">
+      <section className="w-screen h-screen sticky top-0 bg-blue-500" id="hero">
         {showPreloader == false && (
           <motion.div
             initial={{ opacity: 0.1 }}
             transition={{ duration: 0.4 }}
             animate={{ opacity: [0.1, 1.0] }}
-            className="section flex flex-col justify-center mt-20 w-full h-full"
+            className="section flex flex-col justify-center w-full h-full relative"
           >
+            <GridLines />
             {/* top */}
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between z-10">
               {/* text */}
@@ -57,12 +61,12 @@ export default function Home() {
                     {/* <div className="w-32 h-4 bg-black rounded-full"></div> */}
                     <AnimatedBadge />
 
-                    <span className="text-font-primary text-xl">
-                      LOCALIZADO NO BRASIL
+                    <span className="text-white text-xl">
+                      Localizado no Brasil
                     </span>
                     {/* <Globe className="text-paragraph-color" size={16}></Globe> */}
                   </div>
-                  <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans text-font-primary flex flex-col items-start space-y-4 lg:space-y-8 ">
+                  <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans flex flex-col items-start space-y-4 lg:space-y-8 relative z-20">
                     <MagneticText
                       text="Dheysson"
                       hoverText="UX/UI Designer"
@@ -75,10 +79,8 @@ export default function Home() {
                   {/* info */}
                   <div className="lg:my-12">
                     <h2
-                      className="h4 text-2xl!
-                    
-                    
-                    text-font-primary"
+                      className="h4 text-2xl
+                    text-white"
                     >
                       <span className="flex flex-row gap-2 items-center">
                         <TextReveal blur={0} text="UX Designer &" />
@@ -90,19 +92,18 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-40">
-                <SpinningText duration={10} radius={12}>
+              <div className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36">
+                <SpinningText className="text-white" duration={10} radius={11}>
                   - Desenvolvedor Web - UX/UI Designer
                 </SpinningText>
               </div>
             </div>
-            {/* bottom */}
           </motion.div>
         )}
       </section>
 
-      <section>
-        <div className="section mb-12">
+      <section className="bg-white relative">
+        <div className="section py-20">
           <div className="flex flex-col lg:flex-row justify-between gap-20 lg:gap-0 z-10">
             <h3 className="text-h5 lg:text-h4 max-w-prose text-pretty">
               <TextReveal
@@ -119,7 +120,7 @@ ser escolhido."
               </span>
             </h3>
             <div data-scroll data-scroll-speed="0.15">
-              <MagneticWrapper className="ballon mb-24 ml-40 lg:ml-0 lg:mb-48 lg:mr-40">
+              <MagneticWrapper className="ballon mb-24 ml-40 lg:ml-0 lg:mb-48 lg:mr-44">
                 <a
                   href="#projects"
                   className="w-full h-full flex justify-center items-center"
@@ -131,7 +132,7 @@ ser escolhido."
           </div>
         </div>
 
-        <ScrollVelocityContainer className="text-4xl font-bold md:text-5xl mb-56 space-y-3 font-syne-sans uppercase">
+        <ScrollVelocityContainer className="text-4xl font-bold md:text-5xl pb-56 space-y-3 font-syne-sans uppercase">
           <ScrollVelocityRow baseVelocity={10} direction={1}>
             {" "}
             web design - marketing - seo -{" "}
@@ -143,7 +144,7 @@ ser escolhido."
         </ScrollVelocityContainer>
       </section>
 
-      <section className="mb-48 relative w-screen" id="projects">
+      <section className="pb-48 relative w-screen bg-white z-40" id="projects">
         <div className="section flex flex-col">
           {/* top */}
           <div className="flex flex-row items-center justify-between z-10">
@@ -163,7 +164,7 @@ ser escolhido."
           </div>
 
           {/* projects */}
-          <motion.div className="flex flex-col gap-y-16">
+          <motion.div className="flex flex-col gap-y-24">
             <ProjectCard
               isInProgress={true}
               href="https://hospitalsantaceciliarondonia.com"
@@ -234,7 +235,7 @@ ser escolhido."
         </div>
       </section>
 
-      <section className="mb-48 relative" id="about">
+      <section className="pb-48 relative bg-white z-20" id="about">
         <div className="section flex flex-col ">
           {/* top */}
           <div className="flex flex-col gap-16 lg:flex-row items-start justify-between z-10">

@@ -1,0 +1,49 @@
+export default function GridLines() {
+  return (
+    <svg
+      className="absolute inset-0 w-full h-full pointer-events-none z-10"
+      preserveAspectRatio="none"
+    >
+      <line
+        x1="0%"
+        y1="0"
+        x2="0%"
+        y2="100%"
+        stroke="rgba(255,255,255,.12)"
+        strokeWidth="1"
+      />
+      <line
+        x1="25%"
+        y1="0"
+        x2="25%"
+        y2="100%"
+        stroke="rgba(255,255,255,.12)"
+        strokeWidth="1"
+      />
+      <line
+        x1="50%"
+        y1="0"
+        x2="50%"
+        y2="100%"
+        stroke="rgba(255,255,255,.12)"
+        strokeWidth="1"
+      />
+      <line
+        x1="75%"
+        y1="0"
+        x2="75%"
+        y2="100%"
+        stroke="rgba(255,255,255,.12)"
+        strokeWidth="1"
+      />
+      <line
+        x1="100%"
+        y1="0%"
+        x2="100%"
+        y2="100%"
+        stroke="rgba(255,255,255,.12)"
+        strokeWidth="1"
+      />
+    </svg>
+  );
+}

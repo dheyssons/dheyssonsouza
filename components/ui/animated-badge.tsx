@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function AnimatedBadge() {
   return (
     <div className="relative flex flex-row items-center justify-center">
-      <img width={82} height={24} src="/sla.png" className="rounded-full" />
+      <img width={72} height={24} src="/sla.png" className="rounded-full" />
       <motion.div
         transition={{
           duration: 0.5,
