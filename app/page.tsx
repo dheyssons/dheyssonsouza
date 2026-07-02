@@ -97,13 +97,19 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    duration: 0.4,
+                    ease: cubicBezier(0.7, 0, 0.3, 1),
+                  }}
                   data-scroll
                   data-scroll-speed="-0.3"
                   className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-sm lg:w-2xl"
                 >
                   <Image src={Eu} className="w-full" alt="me" />
-                </div>
+                </motion.div>
 
                 <div
                   data-scroll
