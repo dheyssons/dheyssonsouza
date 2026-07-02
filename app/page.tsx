@@ -100,7 +100,7 @@ export default function Home() {
                 <div
                   data-scroll
                   data-scroll-speed="-0.3"
-                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-md lg:w-2xl"
+                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-sm lg:w-2xl"
                 >
                   <Image src={Eu} className="w-full" alt="me" />
                 </div>
@@ -124,7 +124,7 @@ export default function Home() {
         )}
         <motion.div className="absolute bottom-32 z-10">
           <ScrollVelocityContainer>
-            <ScrollVelocityRow baseVelocity={10}>
+            <ScrollVelocityRow baseVelocity={10} direction={-1}>
               <span className=" text-[5rem] lg:text-[9rem] font-syne-sans font-extrabold text-white">
                 Dheysson Souza&nbsp;
               </span>
