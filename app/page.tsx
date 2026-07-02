@@ -19,7 +19,7 @@ import { SpinningText } from "@/components/ui/spinning-text";
 import AnimatedBadge from "@/components/ui/animated-badge";
 
 // imports
-import { motion } from "framer-motion";
+import { cubicBezier, motion } from "framer-motion";
 import { useCallback, useState } from "react";
 import ProjectCard from "@/components/Card/project-card";
 import {
@@ -27,6 +27,9 @@ import {
   ScrollVelocityRow,
 } from "@/components/ui/scroll-based-velocity";
 import GridLines from "@/components/SVGs/grid";
+import Image from "next/image";
+import Eu from "@/public/images/me.webp";
+import LocomotiveScrollProvider from "./components/scripts/locomotive-scroll";
 
 export default function Home() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -43,63 +46,91 @@ export default function Home() {
 
       {showPreloader && <Preloader onComplete={handleComplete} />}
 
-      <section className="w-screen h-screen sticky top-0 bg-blue-500" id="hero">
+      <section
+        className="w-screen h-screen bg-blue-500 overflow-hidden relative"
+        id="hero"
+      >
         {showPreloader == false && (
-          <motion.div
-            initial={{ opacity: 0.1 }}
-            transition={{ duration: 0.4 }}
-            animate={{ opacity: [0.1, 1.0] }}
-            className="section flex flex-col justify-center w-full h-full relative"
-          >
-            <GridLines />
-            {/* top */}
-            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between z-10">
-              {/* text */}
-              <div className="flex flex-col justify-center gap-8">
-                <div className="flex flex-col gap-4 lg:gap-8 mb-16">
-                  <div className="flex flex-row gap-x-2 items-center">
-                    {/* <div className="w-32 h-4 bg-black rounded-full"></div> */}
-                    <AnimatedBadge />
+          <LocomotiveScrollProvider>
+            <div className="section flex flex-col justify-center w-full h-full relative overflow-x-visible">
+              <GridLines />
+              {/* top */}
+              <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between z-10 ">
+                {/* text */}
+                <div
+                  data-scroll
+                  data-scroll-speed="0.15"
+                  className="flex flex-col justify-center gap-8"
+                >
+                  <div className="flex flex-col gap-4 lg:gap-4 mb-16">
+                    {/* <div className="flex flex-row gap-x-2 items-center">
+                      <AnimatedBadge />
 
-                    <span className="text-white text-xl">
-                      Localizado no Brasil
-                    </span>
-                    {/* <Globe className="text-paragraph-color" size={16}></Globe> */}
-                  </div>
-                  <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans flex flex-col items-start space-y-4 lg:space-y-8 relative z-20">
-                    <MagneticText
-                      text="Dheysson"
-                      hoverText="UX/UI Designer"
-                    ></MagneticText>
-                    <MagneticText
-                      text="Souza"
-                      hoverText="Developer"
-                    ></MagneticText>
-                  </h1>
-                  {/* info */}
-                  <div className="lg:my-12">
-                    <h2
-                      className="h4 text-2xl
+                      <span className="text-white text-xl">
+                        Localizado no Brasil
+                      </span>
+                    </div> */}
+                    {/* <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans flex flex-col items-start space-y-4 lg:space-y-8 relative z-20">
+                      <MagneticText
+                        text="Dheysson"
+                        hoverText="UX/UI Designer"
+                      ></MagneticText>
+                      <MagneticText
+                        text="Souza"
+                        hoverText="Developer"
+                      ></MagneticText>
+                    </h1> */}
+                    {/* info */}
+                    <div className="lg:my-8">
+                      <h2
+                        className="h4 text-2xl
                     text-white"
-                    >
-                      <span className="flex flex-row gap-2 items-center">
-                        <TextReveal blur={0} text="UX Designer &" />
-                      </span>
-                      <span className="flex flex-row items-center">
-                        <TextReveal blur={0} text="Desenvolvedor web" />
-                      </span>
-                    </h2>
+                      >
+                        <span className="flex flex-row gap-2 items-center">
+                          <TextReveal blur={0} text="UX Designer &" />
+                        </span>
+                        <span className="flex flex-row items-center">
+                          <TextReveal blur={0} text="Desenvolvedor web" />
+                        </span>
+                      </h2>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36">
-                <SpinningText className="text-white" duration={10} radius={11}>
-                  - Desenvolvedor Web - UX/UI Designer
-                </SpinningText>
+
+                <div
+                  data-scroll
+                  data-scroll-speed="-0.3"
+                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 -z-10 lg:z-20 w-lg lg:w-2xl"
+                >
+                  <Image src={Eu} className="w-full" alt="me" />
+                </div>
+
+                <div
+                  data-scroll
+                  data-scroll-speed="0.15"
+                  className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36"
+                >
+                  <SpinningText
+                    className="text-white"
+                    duration={10}
+                    radius={11}
+                  >
+                    - Desenvolvedor Web - UX/UI Designer
+                  </SpinningText>
+                </div>
               </div>
             </div>
-          </motion.div>
+          </LocomotiveScrollProvider>
         )}
+        <motion.div className="absolute bottom-30 z-10">
+          <ScrollVelocityContainer>
+            <ScrollVelocityRow baseVelocity={10}>
+              <span className="text-[9rem] font-syne-sans font-extrabold text-white">
+                Dheysson Souza&nbsp;
+              </span>
+            </ScrollVelocityRow>
+          </ScrollVelocityContainer>
+        </motion.div>
       </section>
 
       <section className="bg-white relative">
@@ -235,7 +266,7 @@ ser escolhido."
         </div>
       </section>
 
-      <section className="pb-48 relative bg-white z-20" id="about">
+      <section className="pt-14 pb-48 relative bg-white z-20" id="about">
         <div className="section flex flex-col ">
           {/* top */}
           <div className="flex flex-col gap-16 lg:flex-row items-start justify-between z-10">

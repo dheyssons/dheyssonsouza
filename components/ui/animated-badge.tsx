@@ -12,7 +12,7 @@ export default function AnimatedBadge() {
         }}
         initial={{ scaleX: 1 }}
         whileInView={{ scaleX: 0 }}
-        className="absolute origin-right w-full h-full bg-bg-primary z-10"
+        className="absolute origin-right w-full h-full bg-blue-500 z-10"
       ></motion.div>
     </div>
   );

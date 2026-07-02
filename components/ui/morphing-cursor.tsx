@@ -116,7 +116,7 @@ export function MagneticText({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={cn(
-        "relative inline-flex items-center justify-center cursor-none select-none",
+        "relative inline-flex items-center justify-center cursor-none select-none whitespace-nowrap ",
         className,
       )}
     >

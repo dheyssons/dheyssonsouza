@@ -109,12 +109,12 @@ export function SpinningText({
         ))}
         <span className="sr-only">{children}</span>
       </motion.div>
-      <img
+      {/* <img
         width={128}
         height={128}
         className="absolute -translate-y-1/2 z-50 w-full h-full"
         src="/images/avatar.png"
-      />
+      /> */}
     </div>
   );
 }
