@@ -100,7 +100,7 @@ export default function Home() {
                 <div
                   data-scroll
                   data-scroll-speed="-0.3"
-                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 -z-10 lg:z-20 w-lg lg:w-2xl"
+                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-lg lg:w-2xl"
                 >
                   <Image src={Eu} className="w-full" alt="me" />
                 </div>
@@ -108,12 +108,12 @@ export default function Home() {
                 <div
                   data-scroll
                   data-scroll-speed="0.15"
-                  className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36"
+                  className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36 -z-10"
                 >
                   <SpinningText
                     className="text-white"
                     duration={10}
-                    radius={11}
+                    radius={10}
                   >
                     - Desenvolvedor Web - UX/UI Designer
                   </SpinningText>
@@ -122,10 +122,10 @@ export default function Home() {
             </div>
           </LocomotiveScrollProvider>
         )}
-        <motion.div className="absolute bottom-30 z-10">
+        <motion.div className="absolute bottom-32 z-10">
           <ScrollVelocityContainer>
             <ScrollVelocityRow baseVelocity={10}>
-              <span className="text-[9rem] font-syne-sans font-extrabold text-white">
+              <span className=" text-[5rem] lg:text-[9rem] font-syne-sans font-extrabold text-white">
                 Dheysson Souza&nbsp;
               </span>
             </ScrollVelocityRow>
