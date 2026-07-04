@@ -132,7 +132,7 @@ export default function Home() {
           <ScrollVelocityContainer>
             <ScrollVelocityRow baseVelocity={10} direction={-1}>
               <span className=" text-[5rem] lg:text-[9rem] font-syne-sans font-extrabold text-white">
-                Dheysson Souza&nbsp;
+                Dheysson Souza&nbsp;—&nbsp;
               </span>
             </ScrollVelocityRow>
           </ScrollVelocityContainer>
