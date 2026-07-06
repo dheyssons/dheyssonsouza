@@ -252,7 +252,7 @@ ser escolhido."
                 "wireframe",
               ]}
             />
-            <ProjectCard
+            {/* <ProjectCard
               href="https://hygorfonseca.framer.website/"
               title="Hygor Fonseca - Fotógrafo"
               image={FonsecaProjectImage}
@@ -261,7 +261,7 @@ ser escolhido."
                 "Animações scroll-based",
                 "experimental",
               ]}
-            />
+            /> */}
           </motion.div>
         </div>
       </section>
