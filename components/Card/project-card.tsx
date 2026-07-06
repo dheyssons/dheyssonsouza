@@ -93,7 +93,7 @@ export default function ProjectCard({
             data-scroll
             data-scroll-speed="0.05"
             src={image}
-            className="w-full hover:scale-105 transition-transform duration-300 ease-out absolute rounded-xl"
+            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-105"
             alt="Dakwerken De Haes"
           />
 

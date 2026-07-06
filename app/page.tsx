@@ -51,26 +51,25 @@ export default function Home() {
         id="hero"
       >
         {showPreloader == false && (
-          <LocomotiveScrollProvider>
-            <div className="section flex flex-col justify-center w-full h-full relative overflow-x-visible">
-              <GridLines />
-              {/* top */}
-              <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between z-10 ">
-                {/* text */}
-                <div
-                  data-scroll
-                  data-scroll-speed="0.15"
-                  className="flex flex-col justify-center gap-8"
-                >
-                  <div className="flex flex-col gap-4 lg:gap-4 mb-16">
-                    {/* <div className="flex flex-row gap-x-2 items-center">
+          <div className="section flex flex-col justify-center w-full h-full relative overflow-x-visible">
+            <GridLines />
+            {/* top */}
+            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between z-10 ">
+              {/* text */}
+              <div
+                data-scroll
+                data-scroll-speed="0.15"
+                className="flex flex-col justify-center gap-8"
+              >
+                <div className="flex flex-col gap-4 lg:gap-4 mb-16">
+                  {/* <div className="flex flex-row gap-x-2 items-center">
                       <AnimatedBadge />
 
                       <span className="text-white text-xl">
                         Localizado no Brasil
                       </span>
                     </div> */}
-                    {/* <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans flex flex-col items-start space-y-4 lg:space-y-8 relative z-20">
+                  {/* <h1 className="text-5xl lg:text-display-large font-extrabold font-syne-sans flex flex-col items-start space-y-4 lg:space-y-8 relative z-20">
                       <MagneticText
                         text="Dheysson"
                         hoverText="UX/UI Designer"
@@ -80,53 +79,48 @@ export default function Home() {
                         hoverText="Developer"
                       ></MagneticText>
                     </h1> */}
-                    {/* info */}
-                    <div className="lg:my-8">
-                      <h2
-                        className="h4 text-2xl
+                  {/* info */}
+                  <div className="lg:my-8">
+                    <h2
+                      className="h4 text-2xl
                     text-white"
-                      >
-                        <span className="flex flex-row gap-2 items-center">
-                          <TextReveal blur={0} text="UX Designer &" />
-                        </span>
-                        <span className="flex flex-row items-center">
-                          <TextReveal blur={0} text="Desenvolvedor web" />
-                        </span>
-                      </h2>
-                    </div>
+                    >
+                      <span className="flex flex-row gap-2 items-center">
+                        <TextReveal blur={0} text="UX Designer &" />
+                      </span>
+                      <span className="flex flex-row items-center">
+                        <TextReveal blur={0} text="Desenvolvedor web" />
+                      </span>
+                    </h2>
                   </div>
                 </div>
+              </div>
 
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{
-                    duration: 0.4,
-                    ease: cubicBezier(0.7, 0, 0.3, 1),
-                  }}
-                  data-scroll
-                  data-scroll-speed="-0.3"
-                  className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-sm lg:w-2xl"
-                >
-                  <Image src={Eu} className="w-full" alt="me" />
-                </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 0.4,
+                  ease: cubicBezier(0.7, 0, 0.3, 1),
+                }}
+                data-scroll
+                data-scroll-speed="-0.3"
+                className="absolute bottom-0 translate-x-1/2 lg:translate-x-1/6 right-1/3 z-10 lg:z-20 w-sm lg:w-2xl"
+              >
+                <Image src={Eu} className="w-full" alt="me" />
+              </motion.div>
 
-                <div
-                  data-scroll
-                  data-scroll-speed="0.15"
-                  className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36 -z-10"
-                >
-                  <SpinningText
-                    className="text-white"
-                    duration={10}
-                    radius={10}
-                  >
-                    - Desenvolvedor Web - UX/UI Designer
-                  </SpinningText>
-                </div>
+              <div
+                data-scroll
+                data-scroll-speed="0.15"
+                className="mt-36 lg:mt-0 ml-10 lg:ml-0 lg:mr-36 -z-10"
+              >
+                <SpinningText className="text-white" duration={10} radius={10}>
+                  - Desenvolvedor Web - UX/UI Designer
+                </SpinningText>
               </div>
             </div>
-          </LocomotiveScrollProvider>
+          </div>
         )}
         <motion.div className="absolute bottom-32 z-10">
           <ScrollVelocityContainer>
