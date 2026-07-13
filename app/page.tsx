@@ -295,7 +295,7 @@ ser escolhido."
             </p>
             <p className="p max-w-prose">
               Eu sou o Dheysson, e ajudo pequenas e médias empresas a
-              transformarem essa realidade. Criamos e redesenhamos sites com uma
+              transformarem essa realidade. Crio e redesenho sites com uma
               estrutura estratégica, onde a clareza da mensagem vem sempre em
               primeiro lugar.
             </p>
