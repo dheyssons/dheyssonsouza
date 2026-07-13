@@ -300,10 +300,9 @@ ser escolhido."
               primeiro lugar.
             </p>
             <p className="p max-w-prose">
-              O processo é simples: primeiro, organizamos toda a sua informação;
-              depois, criamos uma navegação intuitiva; e, finalmente,
-              construímos um design premium e consistente sobre essa base
-              sólida.
+              O processo é simples: primeiro, organizo toda a sua informação;
+              depois, crio uma navegação intuitiva; e, finalmente, construo um
+              design premium e consistente sobre essa base sólida.
             </p>
             <p className="p max-w-prose">
               O resultado é um site que funciona como o seu melhor vendedor:
