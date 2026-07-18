@@ -1,0 +1,93 @@
+{
+  "header": {
+    "work": "Werk",
+    "about": "Over",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role1": "UX-ontwerper &",
+    "role2": "Webontwikkelaar",
+    "spin": "- Webontwikkelaar - UX/UI-ontwerper"
+  },
+  "intro": {
+    "title": "Webontwerper voor bedrijven die meer willen dan een mooi website.",
+    "body": "Om uw zakelijke doelen te bereiken, begint elk project met onderzoek: uw markt, uw concurrenten en wat u onderscheidt.",
+    "cta": "Bekijk projecten"
+  },
+  "projects": {
+    "title": "Recente projecten",
+    "viewAll": "Bekijk projecten",
+    "cards": {
+      "inProgress": "In uitvoering",
+      "hospital": {
+        "title": "Ziekenhuis en kraamkliniek Santa Cecília",
+        "badges": [
+          "AUDIT",
+          "CONCURRENTIEANALYSE",
+          "SEO-ONDERZOEK & OPTIMALISATIE",
+          "GEBRUIKERSGEDRAGSANALYSE",
+          "WIREFRAME & PROTOTYPING"
+        ]
+      },
+      "dehaes": {
+        "title": "Dakwerken De Haes",
+        "badges": [
+          "AUDIT",
+          "CONCURRENTIEANALYSE",
+          "SEO-ONDERZOEK & OPTIMALISATIE",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+42%", "label": "offerteaanvragen" },
+          { "metric": "-33%", "label": "verwijderingspercentage" },
+          { "metric": "+67%", "label": "sitebetrokkenheid" }
+        ]
+      },
+      "wd": {
+        "title": "WD Toitures",
+        "badges": [
+          "CONCURRENTIEANALYSE",
+          "SEO-ONDERZOEK & OPTIMALISATIE",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+34%", "label": "offerteaanvragen" },
+          { "metric": "61%", "label": "sitebetrokkenheid" }
+        ]
+      },
+      "silicium": {
+        "title": "Silicium Solar Energie",
+        "badges": [
+          "AUDIT",
+          "CONCURRENTIEANALYSE",
+          "SEO-ONDERZOEK & OPTIMALISATIE",
+          "WIREFRAME"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Over",
+    "cta": "Neem contact op",
+    "paragraph1": "Veel excellente bedrijven verliezen elke dag klanten simpelweg omdat hun website verwarrend is en de echte waarde van wat ze doen niet communiceert. Als de klant moet raden hoe u kunt helpen, vertrekt hij.",
+    "paragraph2": "Ik ben Dheysson en ik help kleine en middelgrote bedrijven om deze realiteit te transformeren. Ik maak en herontwerp websites met een strategische structuur, waarbij helderheid van boodschap altijd voorop staat.",
+    "paragraph3": "Het proces is simpel: eerst organiseer ik al uw informatie; daarna maak ik intuïtieve navigatie; en ten slotte bouw ik een premium en consistente uitstraling op die stevige basis.",
+    "paragraph4": "Het resultaat is een website die werkt als uw beste verkoper: hij geeft directe autoriteit en maakt het gemakkelijk voor de klant om contact met u op te nemen.",
+    "badges": [
+      "Marketing",
+      "Gebruikerservaring",
+      "Data-gedreven ontwikkeling",
+      "Onderzoek & synthese",
+      "A/B-testen",
+      "UX Writing",
+      "Webontwikkeling",
+      "Zoekmachine-optimalisatie"
+    ]
+  },
+  "footer": {
+    "cta": "Laten we praten",
+    "contact": "Neem contact op",
+    "location": "Goiás, Brazilië",
+    "copyright": "© 2026 · UX-ontwerper & ontwikkelaar"
+  }
+}

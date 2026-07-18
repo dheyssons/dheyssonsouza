@@ -9,7 +9,7 @@ export default function GridLines() {
         y1="0"
         x2="0%"
         y2="100%"
-        stroke="rgba(255,255,255,.12)"
+        stroke="rgba(255,255,255,.10)"
         strokeWidth="1"
       />
       <line
@@ -17,7 +17,7 @@ export default function GridLines() {
         y1="0"
         x2="25%"
         y2="100%"
-        stroke="rgba(255,255,255,.12)"
+        stroke="rgba(255,255,255,.10)"
         strokeWidth="1"
       />
       <line
@@ -25,7 +25,7 @@ export default function GridLines() {
         y1="0"
         x2="50%"
         y2="100%"
-        stroke="rgba(255,255,255,.12)"
+        stroke="rgba(255,255,255,.10)"
         strokeWidth="1"
       />
       <line
@@ -33,7 +33,7 @@ export default function GridLines() {
         y1="0"
         x2="75%"
         y2="100%"
-        stroke="rgba(255,255,255,.12)"
+        stroke="rgba(255,255,255,.10)"
         strokeWidth="1"
       />
       <line
@@ -41,7 +41,7 @@ export default function GridLines() {
         y1="0%"
         x2="100%"
         y2="100%"
-        stroke="rgba(255,255,255,.12)"
+        stroke="rgba(255,255,255,.10)"
         strokeWidth="1"
       />
     </svg>

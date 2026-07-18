@@ -1,0 +1,93 @@
+{
+  "header": {
+    "work": "Travail",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role1": "Designer UX &",
+    "role2": "Développeur web",
+    "spin": "- Développeur web - UX/UI Designer"
+  },
+  "intro": {
+    "title": "Designer web pour les entreprises qui veulent plus qu'un beau site web.",
+    "body": "Pour atteindre vos objectifs commerciaux, chaque projet commence par une recherche : votre marché, vos concurrents et ce qui vous rend digne d'être choisi.",
+    "cta": "Voir les projets"
+  },
+  "projects": {
+    "title": "Projets récents",
+    "viewAll": "Voir les projets",
+    "cards": {
+      "inProgress": "En cours",
+      "hospital": {
+        "title": "Hôpital et maternité Santa Cecília",
+        "badges": [
+          "AUDIT",
+          "ANALYSE DE LA CONCURRENCE",
+          "RECHERCHE ET OPTIMISATION SEO",
+          "ANALYSE DU COMPORTEMENT UTILISATEUR",
+          "WIREFRAME ET PROTOTYPAGE"
+        ]
+      },
+      "dehaes": {
+        "title": "Dakwerken De Haes",
+        "badges": [
+          "AUDIT",
+          "ANALYSE DE LA CONCURRENCE",
+          "RECHERCHE ET OPTIMISATION SEO",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+42%", "label": "demandes de devis" },
+          { "metric": "-33%", "label": "taux de rebond" },
+          { "metric": "+67%", "label": "engagement sur le site" }
+        ]
+      },
+      "wd": {
+        "title": "WD Toitures",
+        "badges": [
+          "ANALYSE DE LA CONCURRENCE",
+          "RECHERCHE ET OPTIMISATION SEO",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+34%", "label": "demandes de devis" },
+          { "metric": "61%", "label": "engagement sur le site" }
+        ]
+      },
+      "silicium": {
+        "title": "Silicium Solar Energie",
+        "badges": [
+          "AUDIT",
+          "ANALYSE DE LA CONCURRENCE",
+          "RECHERCHE ET OPTIMISATION SEO",
+          "WIREFRAME"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "À propos",
+    "cta": "Prenez contact",
+    "paragraph1": "De nombreuses entreprises excellentes perdent des clients chaque jour simplement parce que leur site web est déroutant et ne communique pas la vraie valeur de ce qu'elles font. Si votre client doit deviner comment vous pouvez l'aider, il part.",
+    "paragraph2": "Je suis Dheysson et j'aide les petites et moyennes entreprises à transformer cette réalité. Je crée et refais des sites web avec une structure stratégique, où la clarté du message vient toujours en premier.",
+    "paragraph3": "Le processus est simple : d'abord, j'organise toutes vos informations ; ensuite, je crée une navigation intuitive ; et enfin, je construis un design premium et cohérent sur cette base solide.",
+    "paragraph4": "Le résultat est un site web qui fonctionne comme votre meilleur vendeur : il transmet une autorité immédiate et facilite le chemin pour que le client puisse vous contacter.",
+    "badges": [
+      "Marketing",
+      "Expérience utilisateur",
+      "Développement axé sur les données",
+      "Recherche & synthèse",
+      "Tests A/B",
+      "UX Writing",
+      "Développement web",
+      "Optimisation pour les moteurs de recherche"
+    ]
+  },
+  "footer": {
+    "cta": "Parlons ensemble",
+    "contact": "Prenez contact",
+    "location": "Goiás, Brésil",
+    "copyright": "© 2026 · Designer UX & Développeur"
+  }
+}

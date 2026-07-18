@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Syne, Inter, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import LocomotiveScrollProvider from "@/app/components/scripts/locomotive-scroll";
+import LocomotiveScrollProvider from "@/app/[locale]/components/scripts/locomotive-scroll";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import { Analytics } from "@vercel/analytics/next";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -26,14 +28,17 @@ export const metadata: Metadata = {
     "Empowering brands to succeed in the digital landscape. Based in Belgium, I specialize in custom digital design and the development of fully interactive websites from scratch. © Code by Dheysson",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={cn(
         "antialiased",
         syne.variable,
@@ -43,9 +48,11 @@ export default function RootLayout({
       )}
     >
       <body className="bg-bg-primary font-inter">
-        <SmoothCursor />
-        <LocomotiveScrollProvider>{children}</LocomotiveScrollProvider>
-        <Analytics />
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <SmoothCursor />
+          <LocomotiveScrollProvider>{children}</LocomotiveScrollProvider>
+          <Analytics />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

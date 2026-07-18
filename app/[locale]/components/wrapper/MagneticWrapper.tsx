@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 
 export default function MagneticWrapper({
   children,
-  strength = 40,
+  strength = 80,
   className = "",
 }: any) {
   const containerRef = useRef<HTMLDivElement>(null);

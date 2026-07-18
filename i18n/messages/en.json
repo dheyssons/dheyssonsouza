@@ -1,0 +1,93 @@
+{
+  "header": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role1": "UX Designer &",
+    "role2": "Web Developer",
+    "spin": "- Web Developer - UX/UI Designer"
+  },
+  "intro": {
+    "title": "Web designer for companies that want more than a beautiful website.",
+    "body": "To achieve your business goals, every project starts with research: your market, your competitors, and what makes you worth being chosen.",
+    "cta": "See projects"
+  },
+  "projects": {
+    "title": "Recent projects",
+    "viewAll": "View projects",
+    "cards": {
+      "inProgress": "In progress",
+      "hospital": {
+        "title": "Hospital and Maternity Santa Cecília",
+        "badges": [
+          "AUDIT",
+          "COMPETITOR ANALYSIS",
+          "SEO RESEARCH & OPTIMIZATION",
+          "USER BEHAVIOR ANALYSIS",
+          "WIREFRAME & PROTOTYPING"
+        ]
+      },
+      "dehaes": {
+        "title": "Dakwerken De Haes",
+        "badges": [
+          "AUDIT",
+          "COMPETITOR ANALYSIS",
+          "SEO RESEARCH & OPTIMIZATION",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+42%", "label": "quote requests" },
+          { "metric": "-33%", "label": "bounce rate" },
+          { "metric": "+67%", "label": "site engagement" }
+        ]
+      },
+      "wd": {
+        "title": "WD Toitures",
+        "badges": [
+          "COMPETITOR ANALYSIS",
+          "SEO RESEARCH & OPTIMIZATION",
+          "WIREFRAME"
+        ],
+        "kpis": [
+          { "metric": "+34%", "label": "quote requests" },
+          { "metric": "61%", "label": "site engagement" }
+        ]
+      },
+      "silicium": {
+        "title": "Silicium Solar Energie",
+        "badges": [
+          "AUDIT",
+          "COMPETITOR ANALYSIS",
+          "SEO RESEARCH & OPTIMIZATION",
+          "WIREFRAME"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "About",
+    "cta": "Get in touch",
+    "paragraph1": "Many excellent companies lose clients every day simply because their website is confusing and does not communicate the real value of what they do. If your client has to guess how you can help, they will leave.",
+    "paragraph2": "I am Dheysson, and I help small and medium-sized businesses transform this reality. I create and redesign websites with a strategic structure, where clarity of message always comes first.",
+    "paragraph3": "The process is simple: first, I organize all your information; then, I create intuitive navigation; and finally, I build a premium and consistent design on that solid foundation.",
+    "paragraph4": "The result is a website that works like your best salesperson: it conveys immediate authority and makes it easy for the client to get in touch with you.",
+    "badges": [
+      "Marketing",
+      "User experience",
+      "Data-driven development",
+      "Research & Synthesis",
+      "A/B Testing",
+      "UX Writing",
+      "Web development",
+      "Search engine optimization"
+    ]
+  },
+  "footer": {
+    "cta": "Let's talk",
+    "contact": "Get in touch",
+    "location": "Goiás, Brazil",
+    "copyright": "© 2026 · UX Designer & Developer"
+  }
+}

@@ -2,14 +2,17 @@ import { ArrowUpRight } from "lucide-react";
 import MagneticWrapper from "./wrapper/MagneticWrapper";
 import TextRollHover from "./ui/text-roll";
 import GridLines from "@/components/SVGs/grid";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer
       id="contact"
       className="pt-24 pb-8 bg-[#1D1D1F] text-white/90 z-50 relative"
     >
-      <div className="w-[95%] lg:w-[75%] mx-auto flex flex-col gap-20 relative">
+      <div className="w-[95%] lg:w-[70%] mx-auto flex flex-col gap-20 relative">
         <GridLines />
 
         <div className="flex flex-row justify-between w-full">
@@ -17,20 +20,20 @@ export default function Footer() {
             href="https://www.instagram.com/dheysson.ss/"
             className="flex flex-row items-center group"
           >
-            <span className="display-medium text-3xl! lg:text-6xl! text-white group-hover:text-blue-500 transition-colors duration-300">
-              Vamos conversar
+            <span className="display-medium text-3xl! md:text-5xl! lg:text-6xl! text-white group-hover:text-blue-500 transition-colors duration-300">
+              {t("cta")}
             </span>
             <ArrowUpRight
               strokeWidth={3}
               className="w-20 h-20 text-white group-hover:text-blue-500 transition-colors duration-300"
             />
           </a>
-          <MagneticWrapper className="ballon2 mr-44">
+          <MagneticWrapper className="hidden! md:flex! ballon2 md:mr-20 lg:mr-40">
             <a
               href="https://www.instagram.com/dheysson.ss/"
               className="w-full h-full flex justify-center items-center"
             >
-              Contate-me
+              {t("contact")}
             </a>
           </MagneticWrapper>
         </div>
@@ -38,7 +41,7 @@ export default function Footer() {
           {/* texto */}
           <div className="flex flex-col lg:flex-row w-full justify-between items-start lg:items-end gap-10">
             <div className="flex flex-col">
-              <span>Goiás, Brazil</span>
+              <span>{t("location")}</span>
               <span>dheyssonsousasilva@gmail.com</span>
             </div>
             <div className="flex flex-row gap-4 justify-between w-full lg:w-auto">
@@ -54,9 +57,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <span className="text-center">
-            © 2026 · UX Designer & Desenvolvedor
-          </span>
+          <span className="text-center">{t("copyright")}</span>
         </div>
       </div>
     </footer>

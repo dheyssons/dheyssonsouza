@@ -1,4 +1,4 @@
-import Badge from "@/app/components/wrapper/Badge";
+import Badge from "@/app/[locale]/components/wrapper/Badge";
 import { motion, useAnimation } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -8,6 +8,7 @@ type Props = {
   badges: string[];
   title: string;
   isInProgress?: boolean;
+  statusLabel?: string;
   href?: string;
   kpis?: any;
 };
@@ -19,6 +20,7 @@ export default function ProjectCard({
   href,
   kpis,
   isInProgress = false,
+  statusLabel = "In progress",
 }: Props) {
   const controls = useAnimation();
 
@@ -52,7 +54,7 @@ export default function ProjectCard({
             {isInProgress && (
               <Badge className="bg-[#f0e2ca3a]! text-[#f49e0e]! border-[#f1ce90]!">
                 {" "}
-                <span className="text-xl leading-0">•</span> &nbsp;Em andamento
+                <span className="text-xl leading-0">•</span> &nbsp;{statusLabel}
               </Badge>
             )}
             <h3 className="text-h3 text-balance lg:text-h2 font-bold font-syne-sans max-w-3xl leading-[110%]">
