@@ -11,7 +11,7 @@ export default function Header() {
         <Link href="/" className="font-syne-sans text-3xl font-extrabold">
           DS
         </Link>
-        <div className="flex items-center gap-16">
+        <div className="flex flex-col md:flex-row items-center gap-12">
           <nav>
             <ul className="flex flex-row gap-x-6">
               <li>
