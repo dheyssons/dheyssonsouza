@@ -40,7 +40,7 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <div className="flex gap-2 text-sm font-medium">
+          <div className="flex gap-6 text-sm font-medium">
             <Link href="/" locale="en" className="hover:opacity-80">
               EN
             </Link>
