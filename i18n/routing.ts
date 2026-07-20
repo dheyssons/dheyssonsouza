@@ -3,7 +3,7 @@ import { createNavigation } from "next-intl/navigation";
 
 export const routing = defineRouting({
   locales: ["en", "nl", "fr", "pt"],
-  defaultLocale: "pt",
+  defaultLocale: "en",
   localePrefix: "always",
 });
 
