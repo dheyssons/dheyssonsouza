@@ -78,8 +78,8 @@ export default function ProjectCard({
               kpis.map((kpi: any, index: any) => {
                 return (
                   <div key={index} className="flex flex-col">
-                    <span className="text-3xl font-medium">{kpi.metric}</span>
-                    <span>{kpi.label}</span>
+                    <span className="text-2xl font-medium">{kpi.metric}</span>
+                    <span className="text-sm">{kpi.label}</span>
                   </div>
                 );
               })}
@@ -93,9 +93,9 @@ export default function ProjectCard({
         >
           <Image
             data-scroll
-            data-scroll-speed="0.05"
+            data-scroll-speed="0.025"
             src={image}
-            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-105"
+            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-110"
             alt="Dakwerken De Haes"
           />
 
