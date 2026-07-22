@@ -143,7 +143,13 @@ export default function Home() {
                 data-scroll-speed="-0.3"
                 className="absolute bottom-0 translate-x-1/2 md:translate-x-1/4 lg:translate-x-1/6 right-1/3 z-10 md:z-20 w-sm md:w-xl lg:w-2xl"
               >
-                <Image src={Eu} className="w-full" alt="me" />
+                <Image
+                  loading="eager"
+                  fetchPriority="high"
+                  src={Eu}
+                  className="w-full"
+                  alt="me"
+                />
               </motion.div>
 
               <div
