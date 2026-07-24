@@ -92,10 +92,10 @@ export default function ProjectCard({
           className="rounded-xl overflow-hidden relative w-full md:w-xl aspect-video shadow-md "
         >
           <Image
-            data-scroll
-            data-scroll-speed="0.025"
             src={image}
-            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-110"
+            width={1280}
+            height={720}
+            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-105"
             alt="Dakwerken De Haes"
           />
 

@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  images: {
+    localPatterns: [{ pathname: "/images/**" }],
+  },
 };
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");

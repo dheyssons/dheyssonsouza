@@ -1,36 +1,23 @@
 "use client";
 
-// images
-import DehaesProjectImage from "@/public/images/projects/dehaes.png";
-import SiliciumProjectImage from "@/public/images/projects/silicium.webp";
-import WDProjectImage from "@/public/images/projects/wdtoitures.webp";
-import HospitalProjectImage from "@/public/images/projects/image.png";
-import FonsecaProjectImage from "@/public/images/projects/fonseca.png";
-
 // components
 import Header from "./components/Header";
 import MagneticWrapper from "./components/wrapper/MagneticWrapper";
 import Badge from "./components/wrapper/Badge";
 import Footer from "./components/Footer";
-import { MagneticText } from "@/components/ui/morphing-cursor";
 import Preloader from "@/components/ui/preloader";
 import { TextReveal } from "@/components/ui/text-reveal";
 import { SpinningText } from "@/components/ui/spinning-text";
-import AnimatedBadge from "@/components/ui/animated-badge";
 
 // imports
 import { cubicBezier, motion } from "framer-motion";
 import { useCallback, useState } from "react";
 import { useTranslations } from "next-intl";
 import ProjectCard from "@/components/Card/project-card";
-import {
-  ScrollVelocityContainer,
-  ScrollVelocityRow,
-} from "@/components/ui/scroll-based-velocity";
+import { ScrollVelocityRow } from "@/components/ui/scroll-based-velocity";
 import GridLines from "@/components/SVGs/grid";
 import Image from "next/image";
 import Eu from "@/public/images/me.webp";
-import LocomotiveScrollProvider from "./components/scripts/locomotive-scroll";
 
 export default function Home() {
   const t = useTranslations();
@@ -47,6 +34,15 @@ export default function Home() {
       badges: t.raw("projects.cards.hospital.badges") as string[],
       isInProgress: true,
       statusLabel: t("projects.cards.inProgress"),
+      image: "/images/projects/image.png",
+    },
+    {
+      href: "https://nsdecoranapolis.com.br",
+      title: t("projects.cards.nsdecor.title"),
+      badges: t.raw("projects.cards.nsdecor.badges") as string[],
+      isInProgress: true,
+      statusLabel: t("projects.cards.inProgress"),
+      image: "/images/projects/nsdecor.webp",
     },
     {
       href: "https://schrijnwerkerij-dehaes.be",
@@ -56,6 +52,7 @@ export default function Home() {
         metric: string;
         label: string;
       }>,
+      image: "/images/projects/dehaes.png",
     },
     {
       href: "https://wdtoitures.be",
@@ -65,12 +62,14 @@ export default function Home() {
         metric: string;
         label: string;
       }>,
+      image: "/images/projects/wdtoitures.webp",
     },
     {
       title: t("projects.cards.silicium.title"),
       badges: t.raw("projects.cards.silicium.badges") as string[],
       isInProgress: true,
       statusLabel: t("projects.cards.inProgress"),
+      image: "/images/projects/silicium.webp",
     },
   ];
 
@@ -165,13 +164,11 @@ export default function Home() {
           </div>
         )}
         <motion.div className="absolute bottom-32 z-10">
-          <ScrollVelocityContainer>
-            <ScrollVelocityRow baseVelocity={10} direction={-1}>
-              <span className=" text-[5rem] md:text-[9rem] font-syne-sans font-extrabold text-white">
-                Dheysson Souza&nbsp;—&nbsp;
-              </span>
-            </ScrollVelocityRow>
-          </ScrollVelocityContainer>
+          <ScrollVelocityRow baseVelocity={10} direction={-1}>
+            <span className=" text-[5rem] md:text-[9rem] font-syne-sans font-extrabold text-white">
+              Dheysson Souza&nbsp;—&nbsp;
+            </span>
+          </ScrollVelocityRow>
         </motion.div>
       </section>
 
@@ -231,21 +228,12 @@ export default function Home() {
           {/* projects */}
           <motion.div className="flex flex-col gap-y-24">
             {projectCards.map((project, index) => {
-              const image =
-                index === 0
-                  ? HospitalProjectImage
-                  : index === 1
-                    ? DehaesProjectImage
-                    : index === 2
-                      ? WDProjectImage
-                      : SiliciumProjectImage;
-
               return (
                 <ProjectCard
                   key={project.title}
                   href={project.href}
                   title={project.title}
-                  image={image}
+                  image={project.image}
                   badges={project.badges}
                   kpis={project.kpis}
                   isInProgress={project.isInProgress}
