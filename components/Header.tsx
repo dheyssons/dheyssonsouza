@@ -6,7 +6,7 @@ export default function Header() {
   const t = useTranslations("header");
 
   return (
-    <header className="w-screen z-50 bg-blue-500 text-white!">
+    <header className={`w-screen z-50 bg-blue-500 text-white `}>
       <div className="w-[90%] lg:w-[70%] mx-auto flex flex-row justify-between py-8">
         <Link href="/" className="font-syne-sans text-3xl font-extrabold">
           DS

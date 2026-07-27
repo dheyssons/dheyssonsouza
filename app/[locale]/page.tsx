@@ -1,17 +1,17 @@
 "use client";
 
 // components
-import Header from "./components/Header";
-import MagneticWrapper from "./components/wrapper/MagneticWrapper";
-import Badge from "./components/wrapper/Badge";
-import Footer from "./components/Footer";
+import Header from "@/components/Header";
+import MagneticWrapper from "@/components/wrapper/MagneticWrapper";
+import Badge from "@/components/wrapper/Badge";
+import Footer from "@/components/Footer";
 import Preloader from "@/components/ui/preloader";
 import { TextReveal } from "@/components/ui/text-reveal";
 import { SpinningText } from "@/components/ui/spinning-text";
 
 // imports
 import { cubicBezier, motion } from "framer-motion";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import ProjectCard from "@/components/Card/project-card";
 import {
@@ -26,18 +26,22 @@ export default function Home() {
   const t = useTranslations();
   const [showPreloader, setShowPreloader] = useState(true);
 
-  const handleComplete = useCallback(() => {
+  const handleComplete = () => {
     setShowPreloader(false);
-  }, []);
+  };
 
   const projectCards = [
     {
       href: "https://hospitalsantaceciliarondonia.com",
       title: t("projects.cards.hospital.title"),
       badges: t.raw("projects.cards.hospital.badges") as string[],
-      isInProgress: true,
+      isInProgress: false,
       statusLabel: t("projects.cards.inProgress"),
-      image: "/images/projects/image.png",
+      image: "/images/projects/hmsc.webp",
+      kpis: t.raw("projects.cards.hospital.kpis") as Array<{
+        metric: string;
+        label: string;
+      }>,
     },
     {
       href: "https://nsdecoranapolis.com.br",

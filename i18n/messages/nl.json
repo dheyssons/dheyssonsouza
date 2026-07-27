@@ -27,6 +27,10 @@
           "SEO-ONDERZOEK & OPTIMALISATIE",
           "GEBRUIKERSGEDRAGSANALYSE",
           "WIREFRAME & PROTOTYPING"
+        ],
+        "kpis": [
+          { "metric": "+64%", "label": "wekelijkse bezoeken" },
+          { "metric": "+71%", "label": "nieuwe gebruikers" }
         ]
       },
       "nsdecor": {

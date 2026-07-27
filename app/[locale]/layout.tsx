@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Syne, Inter, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import LocomotiveScrollProvider from "@/app/[locale]/components/scripts/locomotive-scroll";
+import LocomotiveScrollProvider from "@/components/scripts/locomotive-scroll";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import { Analytics } from "@vercel/analytics/next";
 import { NextIntlClientProvider } from "next-intl";

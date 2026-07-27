@@ -1,9 +1,8 @@
 import { OrbitingCircles } from "@/components/ui/orbiting-circles";
-import { File } from "lucide-react";
 
 export function OrbitingCirclesDemo() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
+    <div className="relative flex h-125 w-full flex-col items-center justify-center overflow-hidden">
       <OrbitingCircles iconSize={40}>
         <img src="/react.svg" />
         <img src="/nodejs.svg" />

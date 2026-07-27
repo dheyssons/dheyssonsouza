@@ -1,4 +1,4 @@
-import Badge from "@/app/[locale]/components/wrapper/Badge";
+import Badge from "@/components/wrapper/Badge";
 import { motion, useAnimation } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -89,14 +89,14 @@ export default function ProjectCard({
         <a
           href={href}
           onMouseOver={handleHover}
-          className="rounded-xl overflow-hidden relative w-full md:w-xl aspect-video shadow-md "
+          className="rounded-xl overflow-hidden relative w-full md:w-xl max-w-lg shadow-md aspect-video"
         >
           <Image
             src={image}
             width={1280}
             height={720}
-            className="w-full hover:scale-110 transition-transform duration-300 ease-out absolute rounded-xl scale-105"
-            alt="Dakwerken De Haes"
+            className="w-full hover:scale-102 transition-transform duration-300 ease-out absolute rounded-xl "
+            alt="Project screenshot"
           />
 
           {href && (
