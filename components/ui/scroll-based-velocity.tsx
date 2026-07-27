@@ -64,7 +64,7 @@ export function ScrollVelocityContainer({
 
   return (
     <ScrollVelocityContext.Provider value={velocityFactor}>
-      <div className={cn("relative w-full", className)} {...props}>
+      <div className={cn("relative w-full max-w-screen", className)} {...props}>
         {children}
       </div>
     </ScrollVelocityContext.Provider>

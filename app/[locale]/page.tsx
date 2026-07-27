@@ -14,7 +14,10 @@ import { cubicBezier, motion } from "framer-motion";
 import { useCallback, useState } from "react";
 import { useTranslations } from "next-intl";
 import ProjectCard from "@/components/Card/project-card";
-import { ScrollVelocityRow } from "@/components/ui/scroll-based-velocity";
+import {
+  ScrollVelocityContainer,
+  ScrollVelocityRow,
+} from "@/components/ui/scroll-based-velocity";
 import GridLines from "@/components/SVGs/grid";
 import Image from "next/image";
 import Eu from "@/public/images/me.webp";
@@ -164,11 +167,13 @@ export default function Home() {
           </div>
         )}
         <motion.div className="absolute bottom-32 z-10">
-          <ScrollVelocityRow baseVelocity={10} direction={-1}>
-            <span className=" text-[5rem] md:text-[9rem] font-syne-sans font-extrabold text-white">
-              Dheysson Souza&nbsp;—&nbsp;
-            </span>
-          </ScrollVelocityRow>
+          <ScrollVelocityContainer>
+            <ScrollVelocityRow baseVelocity={10} direction={-1}>
+              <span className=" text-[5rem] md:text-[9rem] font-syne-sans font-extrabold text-white">
+                Dheysson Souza&nbsp;—&nbsp;
+              </span>
+            </ScrollVelocityRow>
+          </ScrollVelocityContainer>
         </motion.div>
       </section>
 
