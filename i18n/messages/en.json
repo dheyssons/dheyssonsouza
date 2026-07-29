@@ -12,7 +12,7 @@
   "intro": {
     "title": "Web designer for companies that want more than a beautiful website.",
     "body": "To achieve your business goals, every project starts with research: your market, your competitors, and what makes you worth being chosen.",
-    "cta": "See projects"
+    "cta": "Contact me"
   },
   "projects": {
     "title": "Recent projects",
@@ -81,10 +81,9 @@
   "about": {
     "title": "About",
     "cta": "Get in touch",
-    "paragraph1": "Many excellent companies lose clients every day simply because their website is confusing and does not communicate the real value of what they do. If your client has to guess how you can help, they will leave.",
-    "paragraph2": "I am Dheysson, and I help small and medium-sized businesses transform this reality. I create and redesign websites with a strategic structure, where clarity of message always comes first.",
-    "paragraph3": "The process is simple: first, I organize all your information; then, I create intuitive navigation; and finally, I build a premium and consistent design on that solid foundation.",
-    "paragraph4": "The result is a website that works like your best salesperson: it conveys immediate authority and makes it easy for the client to get in touch with you.",
+    "paragraph1": "If someone lands on your website and, within a few seconds, can't understand what your company does, why they should trust you, or how you can help them, there's a good chance you'll lose them.",
+    "paragraph2": "I'm Dheysson, and I build websites that remove those barriers. Before designing any interface, I research your business, your customers, and the factors that truly influence purchasing decisions. Based on those insights, I structure your message, organize your content, and create an experience that makes everything easier to understand. SEO is also part of this process, helping your business get discovered by people who are already searching for the solution you offer.",
+    "paragraph3": "My goal is to build a website that works for your business: answering questions, strengthening your brand's credibility, and helping potential customers make confident decisions.",
     "badges": [
       "Marketing",
       "User experience",

@@ -12,7 +12,7 @@
   "intro": {
     "title": "Designer web para empresas que querem mais do que um site bonito.",
     "body": "Para alcançar seus objetivos de negócio, todo projeto começa com pesquisa: seu mercado, seus concorrentes e o que faz você merecer ser escolhido.",
-    "cta": "Ver projetos"
+    "cta": "Entre em contato"
   },
   "projects": {
     "title": "Projetos recentes",
@@ -81,10 +81,9 @@
   "about": {
     "title": "Sobre",
     "cta": "Entre em contato",
-    "paragraph1": "Muitas empresas excelentes perdem clientes todos os dias simplesmente porque seu site é confuso e não comunica o valor real do que fazem. Se o cliente precisar adivinhar como você pode ajudar, ele vai embora.",
-    "paragraph2": "Eu sou o Dheysson, e ajudo pequenas e médias empresas a transformar essa realidade. Crio e redesenho sites com uma estrutura estratégica, onde a clareza da mensagem vem sempre em primeiro lugar.",
-    "paragraph3": "O processo é simples: primeiro, organizo todas as suas informações; depois, crio uma navegação intuitiva; e, por fim, construo um design premium e consistente sobre essa base sólida.",
-    "paragraph4": "O resultado é um site que funciona como o seu melhor vendedor: transmite autoridade imediata e facilita o caminho para o cliente entrar em contato com você.",
+    "paragraph1": "Se uma pessoa entra no seu site e, em poucos segundos, não entende o que sua empresa faz, por que deveria confiar em você ou como você pode ajudá-la, a chance de perdê-la é grande.",
+    "paragraph2": "Eu sou Dheysson e desenvolvo sites que eliminam essa barreira. Antes de criar qualquer interface, faço uma pesquisa para entender seu negócio, seus clientes e o que realmente influencia a decisão de compra. Com base nisso, estruturo a mensagem, organizo o conteúdo e desenvolvo uma experiência que torna tudo mais fácil de compreender. O SEO também faz parte desse processo, para que sua empresa possa ser encontrada por quem já procura a solução que você oferece.",
+    "paragraph3": "Meu objetivo é construir um site que trabalhe a favor do seu negócio: esclareça dúvidas, fortaleça a credibilidade da sua marca e ajude potenciais clientes a tomar uma decisão com mais confiança.",
     "badges": [
       "Marketing",
       "Experiência do usuário",

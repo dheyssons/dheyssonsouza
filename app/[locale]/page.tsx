@@ -193,7 +193,7 @@ export default function Home() {
             <div data-scroll data-scroll-speed="0.15">
               <MagneticWrapper className="ballon mb-24 ml-40 lg:ml-0 lg:mb-48 lg:mr-44">
                 <a
-                  href="#projects"
+                  href="#contact"
                   className="w-full h-full flex justify-center items-center"
                 >
                   {t("intro.cta")}
@@ -288,7 +288,6 @@ export default function Home() {
             <p className="p max-w-prose">{t("about.paragraph1")}</p>
             <p className="p max-w-prose">{t("about.paragraph2")}</p>
             <p className="p max-w-prose">{t("about.paragraph3")}</p>
-            <p className="p max-w-prose">{t("about.paragraph4")}</p>
           </div>
 
           <div className="flex flex-col gap-4 opacity-70 mt-10">
