@@ -43,7 +43,13 @@ export default function Preloader({ onComplete }: PreloaderProps) {
   const [isExiting, setIsExiting] = useState(false);
 
   useEffect(() => {
-    setDimension({ width: window.innerWidth, height: window.innerHeight });
+    console.log(matchMedia("(width >= 768px)").matches);
+    setDimension({
+      width: matchMedia("(width >= 768px)").matches
+        ? window.innerWidth
+        : window.innerWidth + (window.innerWidth / 100) * 50,
+      height: window.innerHeight,
+    });
   }, []);
 
   useEffect(() => {
@@ -83,10 +89,11 @@ export default function Preloader({ onComplete }: PreloaderProps) {
 
   return (
     <motion.div
+      id="preloader"
       variants={slideUp as any}
       initial="initial"
       animate={isExiting ? "exit" : "initial"}
-      className="fixed inset-0 w-screen h-screen flex items-center justify-center bg-black z-99999999999"
+      className="fixed inset-0 w-[150%] md:w-screen left-[50%] md:left-0 -translate-x-[50%] md:translate-x-0 h-screen flex items-center justify-center bg-black z-99999999999"
     >
       {dimension.width > 0 && (
         <>
