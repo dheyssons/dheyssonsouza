@@ -29,8 +29,8 @@
           "WIREFRAME E PROTOTIPAGEM"
         ],
         "kpis": [
-          { "metric": "+64%", "label": "acessos semanais" },
-          { "metric": "+71%", "label": "novos usuários" }
+          { "metric": "+178,6%", "label": "acessos semanais" },
+          { "metric": "+172,2%", "label": "novos visitantes" }
         ]
       },
       "nsdecor": {
@@ -98,7 +98,7 @@
   "footer": {
     "cta": "Vamos conversar",
     "contact": "Entre em contato",
-    "location": "Goiás, Brasil",
+    "location": "Rondônia, Brasil",
     "copyright": "© 2026 · UX Designer & Desenvolvedor"
   }
 }

@@ -49,7 +49,6 @@ export default async function RootLayout({
     >
       <body className="bg-bg-primary font-inter">
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <SmoothCursor />
           <LocomotiveScrollProvider>{children}</LocomotiveScrollProvider>
           <Analytics />
         </NextIntlClientProvider>

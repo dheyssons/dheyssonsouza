@@ -93,7 +93,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
       variants={slideUp as any}
       initial="initial"
       animate={isExiting ? "exit" : "initial"}
-      className="fixed inset-0 w-[150%] md:w-screen left-[50%] md:left-0 -translate-x-[50%] md:translate-x-0 h-screen flex items-center justify-center bg-black z-99999999999"
+      className="fixed inset-0 w-[150%] md:w-screen left-[50%] md:left-0 -translate-x-[50%] md:translate-x-0 h-dvh flex items-center justify-center bg-black z-99999999999"
     >
       {dimension.width > 0 && (
         <>

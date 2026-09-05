@@ -273,7 +273,7 @@ export default function Home() {
             </div>
 
             <div data-scroll data-scroll-speed="0.15">
-              <MagneticWrapper className="ballon ml-40 md:ml-0 md:mr-40 md:mb-20 lg:md:mb-0">
+              <MagneticWrapper className="ballon ml-40 md:ml-0 md:mr-40 md:mb-20 lg:md:mb-0 mt-10">
                 <a
                   href="https://www.instagram.com/dheysson.ss/"
                   className="w-full h-full flex justify-center items-center"
