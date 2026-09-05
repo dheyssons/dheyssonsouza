@@ -50,9 +50,9 @@
           "WIREFRAME"
         ],
         "kpis": [
-          { "metric": "+42%", "label": "solicitações de orçamento" },
-          { "metric": "-33%", "label": "taxa de rejeição" },
-          { "metric": "+67%", "label": "engajamento no site" }
+          { "metric": "+82%", "label": "solicitações de orçamento" },
+          { "metric": "-63%", "label": "taxa de rejeição" },
+          { "metric": "+127%", "label": "engajamento no site" }
         ]
       },
       "wd": {
@@ -63,8 +63,8 @@
           "WIREFRAME"
         ],
         "kpis": [
-          { "metric": "+34%", "label": "solicitações de orçamento" },
-          { "metric": "61%", "label": "engajamento no site" }
+          { "metric": "+68%", "label": "solicitações de orçamento" },
+          { "metric": "84%", "label": "engajamento no site" }
         ]
       },
       "silicium": {
