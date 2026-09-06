@@ -52,7 +52,7 @@ export default function Home() {
       image: "/images/projects/nsdecor.webp",
     },
     {
-      href: "https://schrijnwerkerij-dehaes.be",
+      href: "https://dehaes-lgrhda2vx-dheyssons-projects.vercel.app/",
       title: t("projects.cards.dehaes.title"),
       badges: t.raw("projects.cards.dehaes.badges") as string[],
       kpis: t.raw("projects.cards.dehaes.kpis") as Array<{
