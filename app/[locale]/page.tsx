@@ -43,14 +43,7 @@ export default function Home() {
         label: string;
       }>,
     },
-    {
-      href: "https://nsdecoranapolis.com.br",
-      title: t("projects.cards.nsdecor.title"),
-      badges: t.raw("projects.cards.nsdecor.badges") as string[],
-      isInProgress: true,
-      statusLabel: t("projects.cards.inProgress"),
-      image: "/images/projects/nsdecor.webp",
-    },
+
     {
       href: "https://dehaes-lgrhda2vx-dheyssons-projects.vercel.app/",
       title: t("projects.cards.dehaes.title"),
@@ -77,6 +70,14 @@ export default function Home() {
       isInProgress: true,
       statusLabel: t("projects.cards.inProgress"),
       image: "/images/projects/silicium.webp",
+    },
+    {
+      href: "https://nsdecoranapolis.com.br",
+      title: t("projects.cards.nsdecor.title"),
+      badges: t.raw("projects.cards.nsdecor.badges") as string[],
+      isInProgress: true,
+      statusLabel: t("projects.cards.inProgress"),
+      image: "/images/projects/nsdecor.webp",
     },
   ];
 

@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 
 export default function MagneticWrapper({
   children,
-  strength = 80,
+  strength = 70,
   className = "",
 }: any) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -27,11 +27,11 @@ export default function MagneticWrapper({
         (position.current.y - contentPosition.current.y) * 0.15;
 
       if (containerRef.current) {
-        containerRef.current.style.transform = `translate(${position.current.x}px, ${position.current.y}px)`;
+        containerRef.current.style.transform = `translate(${position.current.x * 0.7}px, ${position.current.y * 0.7}px)`;
       }
 
       if (contentRef.current) {
-        contentRef.current.style.transform = `translate(${contentPosition.current.x}px, ${contentPosition.current.y}px)`;
+        contentRef.current.style.transform = `translate(${contentPosition.current.x * 0.7}px, ${contentPosition.current.y * 0.7}px)`;
       }
 
       animationFrame = requestAnimationFrame(animate);

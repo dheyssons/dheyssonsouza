@@ -62,7 +62,7 @@
 }
 
 .line {
-  @apply w-full h-px bg-black/30;
+  @apply w-full h-px bg-black/20;
 }
 
 body {

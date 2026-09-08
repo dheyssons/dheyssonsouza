@@ -89,7 +89,7 @@ export default function ProjectCard({
         <a
           href={href}
           onMouseOver={handleHover}
-          className="rounded-xl overflow-hidden relative w-full md:w-xl max-w-lg shadow-md aspect-video"
+          className="rounded-xl overflow-hidden relative w-full md:w-xl max-w-lg shadow-sm aspect-video"
         >
           <Image
             src={image}
@@ -99,7 +99,7 @@ export default function ProjectCard({
             alt="Project screenshot"
           />
 
-          {href && (
+          {/* {href && (
             <div className="w-14 h-14 overflow-hidden flex items-center justify-center absolute bottom-0 right-0 bg-bg-primary rounded-tl-md">
               <motion.div animate={controls} className="">
                 <ArrowUpRight
@@ -119,7 +119,7 @@ export default function ProjectCard({
                 />
               </motion.div>
             </div>
-          )}
+          )} */}
         </a>
       </div>
     </motion.div>
