@@ -1,5 +1,9 @@
+"use client";
+
 import Badge from "@/components/wrapper/Badge";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, useMotionValue } from "framer-motion";
+import { useState } from "react";
+import { createPortal } from "react-dom";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
@@ -23,6 +27,9 @@ export default function ProjectCard({
   statusLabel = "In progress",
 }: Props) {
   const controls = useAnimation();
+  const [showCursor, setShowCursor] = useState(false);
+  const cursorX = useMotionValue(0);
+  const cursorY = useMotionValue(0);
 
   const handleHover = () => {
     controls.start({
@@ -89,7 +96,15 @@ export default function ProjectCard({
         <a
           href={href}
           onMouseOver={handleHover}
-          className="rounded-xl overflow-hidden relative w-full md:w-xl max-w-lg shadow-sm aspect-video"
+          onPointerMove={(event) => {
+            if (!href || event.pointerType !== "mouse") return;
+            cursorX.set(event.clientX - 88);
+            cursorY.set(event.clientY - 88);
+            setShowCursor(true);
+          }}
+          onPointerLeave={() => setShowCursor(false)}
+          onPointerCancel={() => setShowCursor(false)}
+          className="project-image rounded-xl overflow-hidden relative w-full md:w-[43.2rem] max-w-[38.4rem] shadow-sm aspect-video"
         >
           <Image
             src={image}
@@ -121,6 +136,16 @@ export default function ProjectCard({
             </div>
           )} */}
         </a>
+        {href && showCursor && createPortal(
+          <motion.div
+            aria-hidden="true"
+            className="pointer-events-none fixed left-0 top-0 z-[9999] flex h-[176px] w-[176px] items-center justify-center rounded-full bg-[#2b7fff] font-inter text-base font-normal text-white"
+            style={{ x: cursorX, y: cursorY }}
+          >
+            Ver site
+          </motion.div>,
+          document.body,
+        )}
       </div>
     </motion.div>
   );

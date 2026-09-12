@@ -30,6 +30,13 @@
   @apply flex flex-col w-[95%] lg:w-[70%] mx-auto;
 }
 
+@media (any-hover: hover) and (any-pointer: fine) {
+  .project-image[href]:not([href=""]),
+  .project-image[href]:not([href=""]) * {
+    cursor: none;
+  }
+}
+
 .display-large {
   @apply text-display-large font-syne-sans font-extrabold leading-48;
 }

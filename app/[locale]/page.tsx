@@ -32,6 +32,13 @@ export default function Home() {
 
   const projectCards = [
     {
+      title: t("projects.cards.vibe.title"),
+      badges: t.raw("projects.cards.vibe.badges") as string[],
+      image: "/images/projects/vibe.webp",
+      statusLabel: t("projects.cards.inProgress"),
+      href: "https://vibeenergydrink.vercel.app",
+    },
+    {
       href: "https://hospitalsantaceciliarondonia.com",
       title: t("projects.cards.hospital.title"),
       badges: t.raw("projects.cards.hospital.badges") as string[],
@@ -53,16 +60,6 @@ export default function Home() {
         label: string;
       }>,
       image: "/images/projects/dehaes.png",
-    },
-    {
-      href: "https://wdtoitures.be",
-      title: t("projects.cards.wd.title"),
-      badges: t.raw("projects.cards.wd.badges") as string[],
-      kpis: t.raw("projects.cards.wd.kpis") as Array<{
-        metric: string;
-        label: string;
-      }>,
-      image: "/images/projects/wdtoitures.webp",
     },
     {
       title: t("projects.cards.silicium.title"),

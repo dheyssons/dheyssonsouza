@@ -19,6 +19,16 @@
     "viewAll": "Bekijk projecten",
     "cards": {
       "inProgress": "In uitvoering",
+      "vibe": {
+        "title": "Vibe Energy Drink",
+        "badges": [
+          "BRIEFING EN ONDERZOEK",
+          "INFORMATIEARCHITECTUUR",
+          "WIREFRAMES EN PROTOTYPING",
+          "VISUEEL ONTWERP",
+          "ONTWIKKELING"
+        ]
+      },
       "hospital": {
         "title": "Ziekenhuis en kraamkliniek Santa Cecília",
         "badges": [

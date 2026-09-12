@@ -19,6 +19,16 @@
     "viewAll": "Ver projetos",
     "cards": {
       "inProgress": "Em andamento",
+      "vibe": {
+        "title": "Vibe Energy Drink",
+        "badges": [
+          "BRIEFING E PESQUISA",
+          "ARQUITETURA DA INFORMAÇÃO",
+          "WIREFRAME E PROTOTIPAGEM",
+          "DESIGN VISUAL",
+          "DESENVOLVIMENTO"
+        ]
+      },
       "hospital": {
         "title": "Hospital e Maternidade Santa Cecília",
         "badges": [
