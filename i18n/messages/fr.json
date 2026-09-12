@@ -19,12 +19,21 @@
     "viewAll": "Voir les projets",
     "cards": {
       "inProgress": "En cours",
+      "rino": {
+        "title": "Rino Bikes",
+        "badges": [
+          "BRIEF ET RECHERCHE",
+          "ARCHITECTURE DE L’INFORMATION",
+          "DESIGN VISUEL",
+          "DÉVELOPPEMENT"
+        ]
+      },
       "vibe": {
         "title": "Vibe Energy Drink",
         "badges": [
           "BRIEF ET RECHERCHE",
+          "ANALYSE DE LA CONCURRENCE",
           "ARCHITECTURE DE L’INFORMATION",
-          "WIREFRAMES ET PROTOTYPAGE",
           "DESIGN VISUEL",
           "DÉVELOPPEMENT"
         ]
@@ -57,7 +66,8 @@
           "AUDIT",
           "ANALYSE DE LA CONCURRENCE",
           "RECHERCHE ET OPTIMISATION SEO",
-          "WIREFRAME"
+          "WIREFRAME",
+          "DÉVELOPPEMENT"
         ],
         "kpis": [
           { "metric": "+42%", "label": "demandes de devis" },

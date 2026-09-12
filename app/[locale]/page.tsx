@@ -32,13 +32,6 @@ export default function Home() {
 
   const projectCards = [
     {
-      title: t("projects.cards.vibe.title"),
-      badges: t.raw("projects.cards.vibe.badges") as string[],
-      image: "/images/projects/vibe.webp",
-      statusLabel: t("projects.cards.inProgress"),
-      href: "https://vibeenergydrink.vercel.app",
-    },
-    {
       href: "https://hospitalsantaceciliarondonia.com",
       title: t("projects.cards.hospital.title"),
       badges: t.raw("projects.cards.hospital.badges") as string[],
@@ -50,7 +43,13 @@ export default function Home() {
         label: string;
       }>,
     },
-
+    {
+      title: t("projects.cards.vibe.title"),
+      badges: t.raw("projects.cards.vibe.badges") as string[],
+      image: "/images/projects/vibe.webp",
+      statusLabel: t("projects.cards.inProgress"),
+      href: "https://vibeenergydrink.vercel.app",
+    },
     {
       href: "https://dehaes-lgrhda2vx-dheyssons-projects.vercel.app/",
       title: t("projects.cards.dehaes.title"),
@@ -62,19 +61,25 @@ export default function Home() {
       image: "/images/projects/dehaes.png",
     },
     {
-      title: t("projects.cards.silicium.title"),
-      badges: t.raw("projects.cards.silicium.badges") as string[],
-      isInProgress: true,
-      statusLabel: t("projects.cards.inProgress"),
-      image: "/images/projects/silicium.webp",
+      title: t("projects.cards.rino.title"),
+      badges: t.raw("projects.cards.rino.badges") as string[],
+      image: "/images/projects/rino.webp",
+      href: "https://rinobikes.vercel.app",
     },
     {
       href: "https://nsdecoranapolis.com.br",
       title: t("projects.cards.nsdecor.title"),
       badges: t.raw("projects.cards.nsdecor.badges") as string[],
-      isInProgress: true,
       statusLabel: t("projects.cards.inProgress"),
       image: "/images/projects/nsdecor.webp",
+    },
+
+    {
+      title: t("projects.cards.silicium.title"),
+      badges: t.raw("projects.cards.silicium.badges") as string[],
+      isInProgress: true,
+      statusLabel: t("projects.cards.inProgress"),
+      image: "/images/projects/silicium.webp",
     },
   ];
 

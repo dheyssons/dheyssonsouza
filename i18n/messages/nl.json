@@ -19,12 +19,21 @@
     "viewAll": "Bekijk projecten",
     "cards": {
       "inProgress": "In uitvoering",
+      "rino": {
+        "title": "Rino Bikes",
+        "badges": [
+          "BRIEFING EN ONDERZOEK",
+          "INFORMATIEARCHITECTUUR",
+          "VISUEEL ONTWERP",
+          "ONTWIKKELING"
+        ]
+      },
       "vibe": {
         "title": "Vibe Energy Drink",
         "badges": [
           "BRIEFING EN ONDERZOEK",
+          "CONCURRENTIEANALYSE",
           "INFORMATIEARCHITECTUUR",
-          "WIREFRAMES EN PROTOTYPING",
           "VISUEEL ONTWERP",
           "ONTWIKKELING"
         ]
@@ -57,7 +66,8 @@
           "AUDIT",
           "CONCURRENTIEANALYSE",
           "SEO-ONDERZOEK & OPTIMALISATIE",
-          "WIREFRAME"
+          "WIREFRAME",
+          "ONTWIKKELING"
         ],
         "kpis": [
           { "metric": "+42%", "label": "offerteaanvragen" },

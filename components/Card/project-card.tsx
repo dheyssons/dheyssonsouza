@@ -64,7 +64,7 @@ export default function ProjectCard({
                 <span className="text-xl leading-0">•</span> &nbsp;{statusLabel}
               </Badge>
             )}
-            <h3 className="text-h3 text-balance lg:text-h2 font-bold font-syne-sans max-w-3xl leading-[110%]">
+            <h3 className="text-h3 text-balance lg:text-h3 font-bold font-syne-sans max-w-3xl leading-[110%]">
               {title}
             </h3>
             <div className="flex flex-wrap gap-2 max-w-3xl">
@@ -136,16 +136,18 @@ export default function ProjectCard({
             </div>
           )} */}
         </a>
-        {href && showCursor && createPortal(
-          <motion.div
-            aria-hidden="true"
-            className="pointer-events-none fixed left-0 top-0 z-[9999] flex h-[176px] w-[176px] items-center justify-center rounded-full bg-[#2b7fff] font-inter text-base font-normal text-white"
-            style={{ x: cursorX, y: cursorY }}
-          >
-            Ver site
-          </motion.div>,
-          document.body,
-        )}
+        {href &&
+          showCursor &&
+          createPortal(
+            <motion.div
+              aria-hidden="true"
+              className="pointer-events-none fixed left-0 top-0 z-[9999] flex h-[176px] w-[176px] items-center justify-center rounded-full bg-[#2b7fff] font-inter text-base font-normal text-white"
+              style={{ x: cursorX, y: cursorY }}
+            >
+              Ver site
+            </motion.div>,
+            document.body,
+          )}
       </div>
     </motion.div>
   );
