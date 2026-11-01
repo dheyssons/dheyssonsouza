@@ -1,56 +1,64 @@
+"use client";
+
 import TextRollHover from "./ui/text-roll";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 
 export default function Header() {
   const t = useTranslations("header");
+  const pathname = usePathname();
 
   return (
     <header className={`w-screen z-50 bg-blue-500 text-white `}>
-      <div className="w-[90%] lg:w-[70%] mx-auto flex flex-row justify-between py-8">
+      <div className="w-[90%] lg:w-[70%] mx-auto flex flex-wrap items-start justify-between gap-6 py-8">
         <Link href="/" className="font-syne-sans text-3xl font-extrabold">
           DS
         </Link>
-        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="flex flex-col items-end gap-6 md:flex-row md:items-center md:gap-10">
           <nav>
-            <ul className="flex flex-row gap-x-6">
+            <ul className="flex flex-wrap justify-end gap-x-4 gap-y-3 md:gap-x-6">
               <li>
-                <a href="#projects">
+                <Link href="/#projects">
                   <TextRollHover
                     defaultText={t("work")}
                     hoverText={t("work")}
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about">
+                <Link href="/#about">
                   <TextRollHover
                     defaultText={t("about")}
                     hoverText={t("about")}
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact">
+                <Link href={pathname === "/" ? "/#contact" : `${pathname}#contact`}>
                   <TextRollHover
                     defaultText={t("contact")}
                     hoverText={t("contact")}
                   />
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/orcamento" aria-current={pathname === "/orcamento" ? "page" : undefined}>
+                  <TextRollHover defaultText={t("quote")} hoverText={t("quote")} />
+                </Link>
               </li>
             </ul>
           </nav>
           <div className="flex gap-6 text-sm font-medium">
-            <Link href="/" locale="en" className="hover:opacity-80">
+            <Link href={pathname} locale="en" className="hover:opacity-80">
               EN
             </Link>
-            <Link href="/" locale="pt" className="hover:opacity-80">
+            <Link href={pathname} locale="pt" className="hover:opacity-80">
               PT
             </Link>
-            <Link href="/" locale="nl" className="hover:opacity-80">
+            <Link href={pathname} locale="nl" className="hover:opacity-80">
               NL
             </Link>
-            <Link href="/" locale="fr" className="hover:opacity-80">
+            <Link href={pathname} locale="fr" className="hover:opacity-80">
               FR
             </Link>
           </div>

@@ -2,7 +2,8 @@
   "header": {
     "work": "Work",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quote": "Quote"
   },
   "hero": {
     "role1": "UX Designer &",
@@ -120,5 +121,182 @@
     "contact": "Get in touch",
     "location": "State of Rondonia, Brazil",
     "copyright": "© 2026 · UX Designer & Developer"
+  },
+  "quote": {
+    "metaTitle": "Website & web application quotes | Dheysson Souza",
+    "eyebrow": "Web design & development",
+    "title": "Website and web application quotes",
+    "intro": "Websites and web applications for independent professionals, small businesses and companies looking to strengthen their digital presence.",
+    "spin": "landing page • web application • professional website •",
+    "explore": "Explore the packages",
+    "packagesTitle": "Packages, prices and timelines",
+    "packagesIntro": "Compare the scope, investment and timeline of each service. Let’s find the right direction for your business.",
+    "investment": "Investment",
+    "delivery": "Development timeline",
+    "included": "What’s included",
+    "possibilities": "Possible features",
+    "choose": "Request a quote",
+    "discussPackage": "Discuss this package",
+    "customNote": "Scope, investment, development stages and timeline are defined after assessing your project’s needs.",
+    "packages": [
+      {
+        "name": "Landing Page",
+        "price": "R$ 900",
+        "time": "5–7 business days",
+        "description": "A single page to introduce a product, service or business, with clearly organized information and contact options.",
+        "features": [
+          "Single page with up to 6 sections",
+          "Custom layout",
+          "Simple contact form",
+          "WhatsApp integration",
+          "1 revision round",
+          "Website setup and launch"
+        ]
+      },
+      {
+        "name": "Essential Website",
+        "price": "R$ 1,500",
+        "time": "10–15 business days",
+        "description": "A business website presenting your company, services, strengths and contact information.",
+        "features": [
+          "Up to 5 pages",
+          "Custom layout",
+          "Contact form",
+          "WhatsApp integration",
+          "Google Search Console setup to track visibility in Google search",
+          "2 revision rounds",
+          "Website setup and launch"
+        ]
+      },
+      {
+        "name": "Professional Website",
+        "price": "R$ 2,500",
+        "time": "15–25 business days",
+        "description": "A business website with more visual customization, animations and tools to track performance and results.",
+        "features": [
+          "Up to 8 pages",
+          "More personalized design",
+          "Animations and visual interactions",
+          "Custom forms",
+          "WhatsApp integration",
+          "Google Analytics 4 and Google Search Console setup",
+          "Visitor and page view tracking",
+          "Traffic source identification, including Google and social media",
+          "WhatsApp, phone and email click tracking",
+          "Successful contact form submission tracking",
+          "2 revision rounds",
+          "Website setup and launch"
+        ]
+      },
+      {
+        "name": "Web Application",
+        "price": "Custom quote",
+        "time": "Depends on project complexity",
+        "description": "Digital systems and platforms with features tailored to your business needs.",
+        "features": [
+          "Admin panels and dashboards",
+          "User registration and management",
+          "Information and content management",
+          "External service and platform integrations",
+          "Payment and subscription systems",
+          "Custom features and processes"
+        ]
+      }
+    ],
+    "qualityTitle": "Included quality standards",
+    "qualityIntro": "Every project includes these essentials, from the first layout to launch.",
+    "quality": [
+      {
+        "title": "Responsive design",
+        "body": "Adapted to computers, tablets and mobile phones."
+      },
+      {
+        "title": "Performance",
+        "body": "Image, loading and website resource optimization."
+      },
+      {
+        "title": "Accessibility",
+        "body": "Good practices to make navigation and use easier."
+      },
+      {
+        "title": "Basic SEO",
+        "body": "Structured titles, descriptions, URLs and content for search engines."
+      },
+      {
+        "title": "Security",
+        "body": "HTTPS and good development practices."
+      },
+      {
+        "title": "Testing",
+        "body": "Core functionality checked before launch."
+      }
+    ],
+    "costsTitle": "Additional costs",
+    "service": "Service",
+    "cost": "Cost",
+    "costs": [
+      {
+        "name": "Hosting (Vercel)",
+        "value": "Free when permitted by the plan and type of use"
+      },
+      {
+        "name": "Domain",
+        "value": "Estimated R$ 70–100 per year"
+      },
+      {
+        "name": "Paid external services",
+        "value": "As needed"
+      },
+      {
+        "name": "Out-of-scope changes",
+        "value": "Quoted separately"
+      }
+    ],
+    "hostingNote": "Vercel’s free hosting has restrictions on commercial use. Commercial projects may require a paid plan or another hosting solution. Domain registration and renewal, hosting fees and external service costs are the client’s responsibility.",
+    "supportTitle": "Maintenance and support",
+    "supportLead": "No mandatory monthly maintenance fee for website packages.",
+    "support": [
+      "Landing Page, Essential Website and Professional Website include 15 days of support after launch to fix issues with features included in the project scope.",
+      "Changes, new pages, content updates and additional features after delivery are quoted separately.",
+      "For web applications, recurring maintenance needs and monthly fees depend on system complexity, the services used and support requirements."
+    ],
+    "termsTitle": "Commercial terms",
+    "terms": [
+      {
+        "title": "Payment",
+        "body": "For Landing Page, Essential Website and Professional Website: 50% at booking and 50% before launch. Web application payments are defined according to project milestones."
+      },
+      {
+        "title": "Timelines",
+        "body": "Development starts once the initial payment is confirmed and all required materials are received, including copy, images, logo and company information. Delayed materials or out-of-scope changes may affect the timeline."
+      },
+      {
+        "title": "Revisions",
+        "body": "Each package includes a defined number of revision rounds. A round is one consolidated set of requests within the agreed scope. Structural changes, new features and scope changes are quoted separately."
+      },
+      {
+        "title": "Quote validity",
+        "body": "Prices in commercial proposals are valid for 15 days."
+      },
+      {
+        "title": "Domain and hosting",
+        "body": "Whenever possible, domain and hosting accounts are registered in the client’s name. Technical launch setup is included within the limits of the selected package."
+      },
+      {
+        "title": "Content",
+        "body": "Copy, images, photos, logos and other materials must be supplied by the client. Content production, visual identity and graphic materials are not included unless specified in the proposal."
+      },
+      {
+        "title": "Launch and handover",
+        "body": "Once the project is approved and fully paid, the website is published on the agreed domain. Access credentials and source code handover terms are specified in the proposal or contract."
+      }
+    ],
+    "ctaTitle": "Request a custom quote",
+    "ctaBody": "Tell me about your business and what you need. Together, we’ll define the scope of your project.",
+    "ctaButton": "Let’s talk",
+    "emailSubject": "Quote request",
+    "emailBody": "Hi Dheysson! I’m interested in {service}.\n\nMy name:\nMy business:\nAbout the project:\nPreferred timeline:\n",
+    "generalService": "a web project",
+    "currencyNote": "Prices in Brazilian reais (BRL)."
   }
 }

@@ -2,7 +2,8 @@
   "header": {
     "work": "Werk",
     "about": "Over",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quote": "Offerte"
   },
   "hero": {
     "role1": "UX Designer &",
@@ -120,5 +121,182 @@
     "contact": "Neem contact op",
     "location": "Rondonia, Brazilië",
     "copyright": "© 2026 · UX-ontwerper & ontwikkelaar"
+  },
+  "quote": {
+    "metaTitle": "Offerte voor websites en webapplicaties | Dheysson Souza",
+    "eyebrow": "Webdesign & ontwikkeling",
+    "title": "Offertes voor websites en webapplicaties",
+    "intro": "Websites en webapplicaties voor zelfstandigen, kleine bedrijven en ondernemingen die hun digitale aanwezigheid willen versterken.",
+    "spin": "landing page • webapplicatie • professionele website •",
+    "explore": "Bekijk de pakketten",
+    "packagesTitle": "Pakketten, prijzen en planning",
+    "packagesIntro": "Vergelijk de omvang, investering en doorlooptijd van elke dienst. Samen vinden we de juiste aanpak voor je bedrijf.",
+    "investment": "Investering",
+    "delivery": "Ontwikkeltijd",
+    "included": "Wat is inbegrepen",
+    "possibilities": "Mogelijke functies",
+    "choose": "Offerte aanvragen",
+    "discussPackage": "Dit pakket bespreken",
+    "customNote": "De omvang, investering, ontwikkelfasen en planning worden bepaald na het bespreken van de projectbehoeften.",
+    "packages": [
+      {
+        "name": "Landing Page",
+        "price": "R$ 900",
+        "time": "5 tot 7 werkdagen",
+        "description": "Eén pagina om een product, dienst of bedrijf te presenteren, met overzichtelijke informatie en contactmogelijkheden.",
+        "features": [
+          "Eén pagina met maximaal 6 secties",
+          "Persoonlijk ontwerp",
+          "Eenvoudig contactformulier",
+          "WhatsApp-integratie",
+          "1 revisieronde",
+          "Configuratie en publicatie van de website"
+        ]
+      },
+      {
+        "name": "Essentiële Website",
+        "price": "R$ 1.500",
+        "time": "10 tot 15 werkdagen",
+        "description": "Een bedrijfswebsite die je onderneming, diensten, sterke punten en contactgegevens presenteert.",
+        "features": [
+          "Maximaal 5 pagina’s",
+          "Persoonlijk ontwerp",
+          "Contactformulier",
+          "WhatsApp-integratie",
+          "Google Search Console instellen voor inzicht in de zichtbaarheid op Google",
+          "2 revisierondes",
+          "Configuratie en publicatie van de website"
+        ]
+      },
+      {
+        "name": "Professionele Website",
+        "price": "R$ 2.500",
+        "time": "15 tot 25 werkdagen",
+        "description": "Een bedrijfswebsite met meer visueel maatwerk, animaties en tools om prestaties en resultaten te volgen.",
+        "features": [
+          "Maximaal 8 pagina’s",
+          "Uitgebreider persoonlijk ontwerp",
+          "Animaties en visuele interacties",
+          "Formulieren op maat",
+          "WhatsApp-integratie",
+          "Google Analytics 4 en Google Search Console instellen",
+          "Bezoekers en bekeken pagina’s bijhouden",
+          "Verkeersbronnen herkennen, zoals Google en sociale media",
+          "Klikken op WhatsApp, telefoon en e-mail bijhouden",
+          "Succesvol verzonden contactformulieren bijhouden",
+          "2 revisierondes",
+          "Configuratie en publicatie van de website"
+        ]
+      },
+      {
+        "name": "Webapplicatie",
+        "price": "Op aanvraag",
+        "time": "Afhankelijk van de complexiteit",
+        "description": "Digitale systemen en platforms met functies op maat voor jouw bedrijfsbehoeften.",
+        "features": [
+          "Beheerpanelen en dashboards",
+          "Registratie en beheer van gebruikers",
+          "Informatie- en contentbeheer",
+          "Integraties met externe diensten en platforms",
+          "Betaal- en abonnementssystemen",
+          "Functies en processen op maat"
+        ]
+      }
+    ],
+    "qualityTitle": "Inbegrepen kwaliteitsnormen",
+    "qualityIntro": "Elk project bevat deze basis, van het eerste ontwerp tot de publicatie.",
+    "quality": [
+      {
+        "title": "Responsive ontwerp",
+        "body": "Aangepast aan computers, tablets en mobiele telefoons."
+      },
+      {
+        "title": "Prestaties",
+        "body": "Optimalisatie van afbeeldingen, laadtijden en websitebronnen."
+      },
+      {
+        "title": "Toegankelijkheid",
+        "body": "Goede werkwijzen om navigatie en gebruik eenvoudiger te maken."
+      },
+      {
+        "title": "Basis-SEO",
+        "body": "Structuur van titels, beschrijvingen, URL’s en content voor zoekmachines."
+      },
+      {
+        "title": "Beveiliging",
+        "body": "HTTPS en goede ontwikkelpraktijken."
+      },
+      {
+        "title": "Tests",
+        "body": "Controle van de belangrijkste functies vóór publicatie."
+      }
+    ],
+    "costsTitle": "Extra kosten",
+    "service": "Dienst",
+    "cost": "Kosten",
+    "costs": [
+      {
+        "name": "Hosting (Vercel)",
+        "value": "Gratis wanneer het abonnement en gebruik dit toestaan"
+      },
+      {
+        "name": "Domein",
+        "value": "Geschat R$ 70 tot R$ 100 per jaar"
+      },
+      {
+        "name": "Betaalde externe diensten",
+        "value": "Naar behoefte"
+      },
+      {
+        "name": "Wijzigingen buiten de scope",
+        "value": "Aparte offerte"
+      }
+    ],
+    "hostingNote": "Gratis hosting bij Vercel heeft beperkingen voor commercieel gebruik. Commerciële projecten kunnen een betaald abonnement of andere hosting vereisen. Domeinregistratie en -verlenging, hosting en externe diensten zijn voor rekening van de klant.",
+    "supportTitle": "Onderhoud en ondersteuning",
+    "supportLead": "Geen verplichte maandelijkse onderhoudskosten voor websitepakketten.",
+    "support": [
+      "Landing Page, Essentiële Website en Professionele Website bevatten 15 dagen ondersteuning na publicatie om problemen met de afgesproken functies op te lossen.",
+      "Wijzigingen, nieuwe pagina’s, contentupdates en extra functies na oplevering worden apart geoffreerd.",
+      "Voor webapplicaties worden terugkerend onderhoud en maandelijkse kosten bepaald door de complexiteit, gebruikte diensten en ondersteuningsbehoeften."
+    ],
+    "termsTitle": "Commerciële voorwaarden",
+    "terms": [
+      {
+        "title": "Betaling",
+        "body": "Voor Landing Page, Essentiële Website en Professionele Website: 50% bij opdracht en 50% vóór publicatie. Voor webapplicaties volgt de betaling de afgesproken projectfasen."
+      },
+      {
+        "title": "Planning",
+        "body": "De ontwikkeling begint na bevestiging van de eerste betaling en ontvangst van alle benodigde materialen, zoals teksten, afbeeldingen, logo en bedrijfsinformatie. Vertraagde materialen en wijzigingen buiten de scope kunnen de planning beïnvloeden."
+      },
+      {
+        "title": "Revisies",
+        "body": "Elk pakket bevat een vastgesteld aantal revisierondes. Eén ronde is een gebundelde set aanpassingen binnen de afgesproken scope. Structurele wijzigingen, nieuwe functies en scopewijzigingen worden apart geoffreerd."
+      },
+      {
+        "title": "Geldigheid van de offerte",
+        "body": "Prijzen in commerciële voorstellen zijn 15 dagen geldig."
+      },
+      {
+        "title": "Domein en hosting",
+        "body": "Waar mogelijk worden deze op naam van de klant geregistreerd. De technische configuratie voor publicatie is inbegrepen binnen de grenzen van het gekozen pakket."
+      },
+      {
+        "title": "Content",
+        "body": "Teksten, afbeeldingen, foto’s, logo’s en andere materialen worden door de klant aangeleverd. Contentproductie, visuele identiteit en grafisch materiaal zijn niet inbegrepen, tenzij vermeld in het voorstel."
+      },
+      {
+        "title": "Publicatie en overdracht",
+        "body": "Na goedkeuring en volledige betaling wordt de website op het afgesproken domein gepubliceerd. Toegangsgegevens en voorwaarden voor overdracht van de broncode staan in het voorstel of contract."
+      }
+    ],
+    "ctaTitle": "Vraag een offerte op maat aan",
+    "ctaBody": "Vertel over je bedrijf en wat je nodig hebt. Samen bepalen we de omvang van je project.",
+    "ctaButton": "Laten we praten",
+    "emailSubject": "Offerteaanvraag",
+    "emailBody": "Hallo Dheysson! Ik heb interesse in {service}.\n\nMijn naam:\nMijn bedrijf:\nOver het project:\nGewenste planning:\n",
+    "generalService": "een webproject",
+    "currencyNote": "Prijzen in Braziliaanse reais (BRL)."
   }
 }

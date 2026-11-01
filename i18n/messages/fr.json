@@ -2,7 +2,8 @@
   "header": {
     "work": "Travail",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quote": "Devis"
   },
   "hero": {
     "role1": "Designer UX &",
@@ -120,5 +121,182 @@
     "contact": "Prenez contact",
     "location": "Rondônia, Brésil",
     "copyright": "© 2026 · Designer UX & Développeur"
+  },
+  "quote": {
+    "metaTitle": "Devis de sites et applications web | Dheysson Souza",
+    "eyebrow": "Web design & développement",
+    "title": "Devis de sites et applications web",
+    "intro": "Sites et applications web pour les indépendants, les petites entreprises et les sociétés qui souhaitent renforcer leur présence numérique.",
+    "spin": "landing page • application web • site professionnel •",
+    "explore": "Découvrir les formules",
+    "packagesTitle": "Formules, tarifs et délais",
+    "packagesIntro": "Comparez le périmètre, le budget et les délais de chaque service. Trouvons la bonne direction pour votre entreprise.",
+    "investment": "Investissement",
+    "delivery": "Délai de développement",
+    "included": "Ce qui est inclus",
+    "possibilities": "Fonctionnalités possibles",
+    "choose": "Demander un devis",
+    "discussPackage": "Discuter de cette formule",
+    "customNote": "Le périmètre, le budget, les étapes et les délais sont définis après analyse des besoins du projet.",
+    "packages": [
+      {
+        "name": "Landing Page",
+        "price": "900 R$",
+        "time": "5 à 7 jours ouvrés",
+        "description": "Une page unique pour présenter un produit, un service ou une entreprise, avec des informations organisées et des moyens de contact.",
+        "features": [
+          "Une page avec jusqu’à 6 sections",
+          "Mise en page personnalisée",
+          "Formulaire de contact simple",
+          "Intégration WhatsApp",
+          "1 série de révisions",
+          "Configuration et mise en ligne"
+        ]
+      },
+      {
+        "name": "Site Essentiel",
+        "price": "1 500 R$",
+        "time": "10 à 15 jours ouvrés",
+        "description": "Un site vitrine pour présenter votre entreprise, ses services, ses atouts et ses coordonnées.",
+        "features": [
+          "Jusqu’à 5 pages",
+          "Mise en page personnalisée",
+          "Formulaire de contact",
+          "Intégration WhatsApp",
+          "Configuration de Google Search Console pour suivre la visibilité sur Google",
+          "2 séries de révisions",
+          "Configuration et mise en ligne"
+        ]
+      },
+      {
+        "name": "Site Professionnel",
+        "price": "2 500 R$",
+        "time": "15 à 25 jours ouvrés",
+        "description": "Un site vitrine avec une personnalisation visuelle avancée, des animations et des outils de suivi des performances.",
+        "features": [
+          "Jusqu’à 8 pages",
+          "Design davantage personnalisé",
+          "Animations et interactions visuelles",
+          "Formulaires personnalisés",
+          "Intégration WhatsApp",
+          "Configuration de Google Analytics 4 et Google Search Console",
+          "Suivi des visiteurs et des pages consultées",
+          "Identification des sources de trafic, dont Google et les réseaux sociaux",
+          "Suivi des clics WhatsApp, téléphone et e-mail",
+          "Suivi des formulaires envoyés avec succès",
+          "2 séries de révisions",
+          "Configuration et mise en ligne"
+        ]
+      },
+      {
+        "name": "Application Web",
+        "price": "Sur devis",
+        "time": "Selon la complexité du projet",
+        "description": "Des systèmes et plateformes numériques avec des fonctionnalités adaptées aux besoins de votre entreprise.",
+        "features": [
+          "Interfaces d’administration et tableaux de bord",
+          "Inscription et gestion des utilisateurs",
+          "Gestion des informations et des contenus",
+          "Intégrations de services et plateformes externes",
+          "Systèmes de paiement et d’abonnement",
+          "Fonctionnalités et processus personnalisés"
+        ]
+      }
+    ],
+    "qualityTitle": "Standards de qualité inclus",
+    "qualityIntro": "Tous les projets incluent ces éléments, de la première maquette à la mise en ligne.",
+    "quality": [
+      {
+        "title": "Responsive",
+        "body": "Adaptation aux ordinateurs, tablettes et téléphones."
+      },
+      {
+        "title": "Performance",
+        "body": "Optimisation des images, du chargement et des ressources du site."
+      },
+      {
+        "title": "Accessibilité",
+        "body": "Bonnes pratiques pour faciliter la navigation et l’utilisation."
+      },
+      {
+        "title": "SEO de base",
+        "body": "Structure des titres, descriptions, URL et contenus pour les moteurs de recherche."
+      },
+      {
+        "title": "Sécurité",
+        "body": "HTTPS et bonnes pratiques de développement."
+      },
+      {
+        "title": "Tests",
+        "body": "Vérification des principales fonctionnalités avant la mise en ligne."
+      }
+    ],
+    "costsTitle": "Coûts supplémentaires",
+    "service": "Service",
+    "cost": "Coût",
+    "costs": [
+      {
+        "name": "Hébergement (Vercel)",
+        "value": "Gratuit si le forfait et l’usage le permettent"
+      },
+      {
+        "name": "Nom de domaine",
+        "value": "Estimation de 70 à 100 R$ par an"
+      },
+      {
+        "name": "Services externes payants",
+        "value": "Selon les besoins"
+      },
+      {
+        "name": "Modifications hors périmètre",
+        "value": "Sur devis supplémentaire"
+      }
+    ],
+    "hostingNote": "L’hébergement gratuit de Vercel comporte des restrictions d’usage commercial. Les projets commerciaux peuvent nécessiter un forfait payant ou un autre hébergement. L’enregistrement et le renouvellement du domaine, l’hébergement et les services externes sont à la charge du client.",
+    "supportTitle": "Maintenance et assistance",
+    "supportLead": "Aucun abonnement de maintenance obligatoire pour les formules de sites.",
+    "support": [
+      "Les formules Landing Page, Site Essentiel et Site Professionnel incluent 15 jours d’assistance après la mise en ligne pour corriger les problèmes liés aux fonctionnalités prévues.",
+      "Les modifications, nouvelles pages, mises à jour de contenu et fonctionnalités supplémentaires après livraison font l’objet d’un devis séparé.",
+      "Pour les applications web, la maintenance récurrente et son tarif mensuel sont définis selon la complexité du système, les services utilisés et les besoins d’assistance."
+    ],
+    "termsTitle": "Conditions commerciales",
+    "terms": [
+      {
+        "title": "Paiement",
+        "body": "Pour Landing Page, Site Essentiel et Site Professionnel : 50 % à la commande et 50 % avant la mise en ligne. Pour les applications web, le paiement suit les étapes du projet."
+      },
+      {
+        "title": "Délais",
+        "body": "Le développement commence après confirmation du premier paiement et réception des éléments nécessaires : textes, images, logo et informations de l’entreprise. Les retards de livraison des éléments et les modifications hors périmètre peuvent affecter les délais."
+      },
+      {
+        "title": "Révisions",
+        "body": "Chaque formule comprend un nombre défini de séries de révisions. Une série correspond à un envoi regroupé de demandes conformes au périmètre prévu. Les changements structurels, nouvelles fonctionnalités et changements de périmètre sont facturés séparément."
+      },
+      {
+        "title": "Validité du devis",
+        "body": "Les prix des propositions commerciales sont valables 15 jours."
+      },
+      {
+        "title": "Domaine et hébergement",
+        "body": "Dans la mesure du possible, ils sont souscrits au nom du client. La configuration technique de mise en ligne est incluse dans les limites de la formule choisie."
+      },
+      {
+        "title": "Contenu",
+        "body": "Les textes, images, photographies, logos et autres éléments sont fournis par le client. La création de contenu, l’identité visuelle et les supports graphiques ne sont pas inclus, sauf mention dans la proposition."
+      },
+      {
+        "title": "Mise en ligne et livraison",
+        "body": "Après validation du projet et paiement intégral, le site est publié sur le domaine convenu. Les accès et les conditions de remise du code source sont définis dans la proposition ou le contrat."
+      }
+    ],
+    "ctaTitle": "Demandez un devis personnalisé",
+    "ctaBody": "Parlez-moi de votre entreprise et de vos besoins. Ensemble, nous définirons le périmètre de votre projet.",
+    "ctaButton": "Discutons",
+    "emailSubject": "Demande de devis",
+    "emailBody": "Bonjour Dheysson ! Je suis intéressé(e) par {service}.\n\nMon nom :\nMon entreprise :\nÀ propos du projet :\nDélai souhaité :\n",
+    "generalService": "un projet web",
+    "currencyNote": "Prix en réals brésiliens (BRL)."
   }
 }

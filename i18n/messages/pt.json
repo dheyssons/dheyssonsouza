@@ -2,7 +2,8 @@
   "header": {
     "work": "Trabalho",
     "about": "Sobre",
-    "contact": "Contato"
+    "contact": "Contato",
+    "quote": "Orçamento"
   },
   "hero": {
     "role1": "UX Designer &",
@@ -120,5 +121,182 @@
     "contact": "Entre em contato",
     "location": "Rondônia, Brasil",
     "copyright": "© 2026 · UX Designer & Desenvolvedor"
+  },
+  "quote": {
+    "metaTitle": "Orçamento de sites e aplicações web | Dheysson Souza",
+    "eyebrow": "Web design & desenvolvimento",
+    "title": "Orçamento de sites e aplicações web",
+    "intro": "Sites e aplicações web para profissionais autônomos, pequenos negócios e empresas que desejam fortalecer sua presença digital.",
+    "spin": "landing page • aplicação web • site profissional •",
+    "explore": "Conheça os pacotes",
+    "packagesTitle": "Pacotes, valores e prazos",
+    "packagesIntro": "Compare o escopo, o investimento e o prazo de cada serviço. Vamos encontrar o melhor caminho para o seu negócio.",
+    "investment": "Investimento",
+    "delivery": "Prazo de desenvolvimento",
+    "included": "O que está incluído",
+    "possibilities": "Funcionalidades que podem ser desenvolvidas",
+    "choose": "Solicitar orçamento",
+    "discussPackage": "Conversar sobre este pacote",
+    "customNote": "O escopo, o investimento, as etapas e o prazo são definidos após o levantamento das necessidades do projeto.",
+    "packages": [
+      {
+        "name": "Landing Page",
+        "price": "R$ 900",
+        "time": "5 a 7 dias úteis",
+        "description": "Uma página única para apresentar um produto, serviço ou negócio, com informações organizadas e formas de contato.",
+        "features": [
+          "Página única com até 6 seções",
+          "Layout personalizado",
+          "Formulário simples de contato",
+          "Integração com WhatsApp",
+          "1 rodada de revisões",
+          "Configuração e publicação do site"
+        ]
+      },
+      {
+        "name": "Site Essencial",
+        "price": "R$ 1.500",
+        "time": "10 a 15 dias úteis",
+        "description": "Um site institucional para apresentar sua empresa, seus serviços, diferenciais e informações de contato.",
+        "features": [
+          "Até 5 páginas",
+          "Layout personalizado",
+          "Formulário de contato",
+          "Integração com WhatsApp",
+          "Google Search Console para acompanhar a presença nas pesquisas do Google",
+          "2 rodadas de revisões",
+          "Configuração e publicação do site"
+        ]
+      },
+      {
+        "name": "Site Profissional",
+        "price": "R$ 2.500",
+        "time": "15 a 25 dias úteis",
+        "description": "Um site institucional com maior personalização visual, animações e ferramentas para acompanhar o desempenho e os resultados.",
+        "features": [
+          "Até 8 páginas",
+          "Design com maior nível de personalização",
+          "Animações e interações visuais",
+          "Formulários personalizados",
+          "Integração com WhatsApp",
+          "Configuração do Google Analytics 4 e Google Search Console",
+          "Acompanhamento de visitantes e páginas acessadas",
+          "Identificação das fontes de acesso, como Google e redes sociais",
+          "Monitoramento de cliques no WhatsApp, telefone e e-mail",
+          "Monitoramento de formulários enviados com sucesso",
+          "2 rodadas de revisões",
+          "Configuração e publicação do site"
+        ]
+      },
+      {
+        "name": "Aplicação Web",
+        "price": "Sob orçamento",
+        "time": "Conforme a complexidade do projeto",
+        "description": "Sistemas e plataformas digitais com funcionalidades personalizadas para as necessidades de cada negócio.",
+        "features": [
+          "Painéis administrativos e dashboards",
+          "Cadastro e gerenciamento de usuários",
+          "Gerenciamento de informações e conteúdos",
+          "Integrações com serviços e plataformas externas",
+          "Sistemas de pagamento e assinaturas",
+          "Funcionalidades e processos personalizados"
+        ]
+      }
+    ],
+    "qualityTitle": "Padrões de qualidade incluídos",
+    "qualityIntro": "Todos os projetos incluem estes cuidados, do primeiro layout à publicação.",
+    "quality": [
+      {
+        "title": "Responsividade",
+        "body": "Adaptação para computadores, tablets e celulares."
+      },
+      {
+        "title": "Desempenho",
+        "body": "Otimização de imagens, carregamento e recursos do site."
+      },
+      {
+        "title": "Acessibilidade",
+        "body": "Boas práticas para facilitar a navegação e o uso."
+      },
+      {
+        "title": "SEO básico",
+        "body": "Estrutura de títulos, descrições, URLs e organização do conteúdo para mecanismos de busca."
+      },
+      {
+        "title": "Segurança",
+        "body": "Utilização de HTTPS e boas práticas de desenvolvimento."
+      },
+      {
+        "title": "Testes",
+        "body": "Verificação das principais funcionalidades antes da publicação."
+      }
+    ],
+    "costsTitle": "Custos adicionais",
+    "service": "Serviço",
+    "cost": "Valor",
+    "costs": [
+      {
+        "name": "Hospedagem (Vercel)",
+        "value": "Gratuita quando permitido pelo plano e tipo de uso"
+      },
+      {
+        "name": "Domínio",
+        "value": "R$ 70 a R$ 100 por ano, estimativa"
+      },
+      {
+        "name": "Serviços externos pagos",
+        "value": "Conforme necessidade"
+      },
+      {
+        "name": "Alterações fora do escopo",
+        "value": "Orçamento adicional"
+      }
+    ],
+    "hostingNote": "A hospedagem gratuita da Vercel possui restrições de uso comercial. Projetos comerciais podem exigir um plano pago ou outra solução de hospedagem. O registro e a renovação do domínio, assim como eventuais custos de hospedagem e serviços externos, são de responsabilidade do cliente.",
+    "supportTitle": "Manutenção e suporte",
+    "supportLead": "Sem mensalidade obrigatória para os pacotes de sites.",
+    "support": [
+      "Landing Page, Site Essencial e Site Profissional incluem 15 dias de suporte após a publicação para correção de eventuais problemas nas funcionalidades previstas no projeto.",
+      "Alterações, novas páginas, mudanças de conteúdo e funcionalidades adicionais após a entrega são orçadas separadamente.",
+      "Para aplicações web, a necessidade de manutenção recorrente e o valor da mensalidade são definidos conforme a complexidade do sistema, os serviços utilizados e as necessidades de suporte."
+    ],
+    "termsTitle": "Condições comerciais",
+    "terms": [
+      {
+        "title": "Pagamento",
+        "body": "Para Landing Page, Site Essencial e Site Profissional: 50% na contratação e 50% antes da publicação do site. Para aplicações web, o pagamento é definido conforme as etapas do projeto."
+      },
+      {
+        "title": "Prazos",
+        "body": "O desenvolvimento começa após a confirmação do pagamento inicial e o recebimento dos materiais necessários, como textos, imagens, logotipo e informações da empresa. Atrasos na entrega desses materiais e alterações fora do escopo podem modificar o prazo previsto."
+      },
+      {
+        "title": "Revisões",
+        "body": "Cada pacote inclui uma quantidade definida de rodadas de revisões. Uma rodada corresponde ao envio consolidado de ajustes relacionados ao escopo contratado. Mudanças estruturais, novas funcionalidades e alterações de escopo são orçadas separadamente."
+      },
+      {
+        "title": "Validade do orçamento",
+        "body": "Os valores apresentados em propostas comerciais têm validade de 15 dias."
+      },
+      {
+        "title": "Domínio e hospedagem",
+        "body": "Sempre que possível, são contratados em nome do cliente. A configuração técnica para publicação está incluída no desenvolvimento, respeitando os limites do pacote contratado."
+      },
+      {
+        "title": "Conteúdo",
+        "body": "Textos, imagens, fotografias, logotipos e demais materiais devem ser fornecidos pelo cliente. Produção de conteúdo, identidade visual e materiais gráficos não estão incluídos, salvo quando especificados na proposta."
+      },
+      {
+        "title": "Publicação e entrega",
+        "body": "Após a aprovação do projeto e a quitação do valor contratado, o site é publicado no domínio definido. Os acessos e as condições de entrega do código-fonte são estabelecidos na proposta ou contrato."
+      }
+    ],
+    "ctaTitle": "Solicite um orçamento personalizado",
+    "ctaBody": "Conte sobre o seu negócio e o que você precisa. O próximo passo é definir juntos o escopo do projeto.",
+    "ctaButton": "Vamos conversar",
+    "emailSubject": "Solicitação de orçamento",
+    "emailBody": "Olá, Dheysson! Tenho interesse em {service}.\n\nMeu nome:\nMeu negócio:\nSobre o projeto:\nPrazo desejado:\n",
+    "generalService": "um projeto web",
+    "currencyNote": "Valores em reais (BRL)."
   }
 }
