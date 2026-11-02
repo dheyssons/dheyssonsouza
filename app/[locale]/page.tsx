@@ -32,6 +32,15 @@ export default function Home() {
 
   const projectCards = [
     {
+      title: t("projects.cards.vitale.title"),
+      href: "https://vitaleimoveis.com",
+      caseHref: "/vitale",
+      caseLabel: t("projects.cards.vitale.viewCase"),
+      description: t("projects.cards.vitale.description"),
+      badges: t.raw("projects.cards.vitale.badges") as string[],
+      image: "/images/projects/vitale.png",
+    },
+    {
       href: "https://hospitalsantaceciliarondonia.com",
       title: t("projects.cards.hospital.title"),
       badges: t.raw("projects.cards.hospital.badges") as string[],
@@ -245,6 +254,9 @@ export default function Home() {
                   key={project.title}
                   href={project.href}
                   title={project.title}
+                  description={project.description}
+                  caseHref={project.caseHref}
+                  caseLabel={project.caseLabel}
                   image={project.image}
                   badges={project.badges}
                   kpis={project.kpis}

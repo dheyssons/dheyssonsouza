@@ -6,11 +6,15 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
 
 type Props = {
   image: any;
   badges: string[];
   title: string;
+  description?: string;
+  caseHref?: string;
+  caseLabel?: string;
   isInProgress?: boolean;
   statusLabel?: string;
   href?: string;
@@ -21,6 +25,9 @@ export default function ProjectCard({
   image,
   badges,
   title,
+  description,
+  caseHref,
+  caseLabel,
   href,
   kpis,
   isInProgress = false,
@@ -67,6 +74,11 @@ export default function ProjectCard({
             <h3 className="text-h3 text-balance lg:text-h3 font-bold font-syne-sans max-w-3xl leading-[110%]">
               {title}
             </h3>
+            {description && (
+              <p className="max-w-xl text-base leading-relaxed text-font-primary/75">
+                {description}
+              </p>
+            )}
             <div className="flex flex-wrap gap-2 max-w-3xl">
               {badges &&
                 badges.map((badge, index) => {
@@ -79,6 +91,12 @@ export default function ProjectCard({
                 })}
             </div>
           </div>
+
+          {caseHref && caseLabel && (
+            <Link href={caseHref} className="inline-flex w-fit items-center gap-2 border-b border-current pb-1 text-sm font-medium transition-colors hover:text-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4">
+              {caseLabel} <ArrowUpRight aria-hidden="true" className="size-4" />
+            </Link>
+          )}
 
           <div className="flex flex-row gap-16">
             {kpis &&

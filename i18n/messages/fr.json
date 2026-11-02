@@ -20,6 +20,18 @@
     "viewAll": "Voir les projets",
     "cards": {
       "inProgress": "En cours",
+      "vitale": {
+        "viewCase": "Voir le cas d’étude",
+        "title": "Vitale Imóveis",
+        "description": "De l’étude de marché et du positionnement de marque au Brandbook, au Design System et au développement d’une plateforme immobilière complète. Recherche de biens, espace annonceur et interface d’administration avec gestion des révisions, authentification et droits d’accès, réalisés avec Next.js, TypeScript et Supabase.",
+        "badges": [
+          "ÉTUDE DE MARCHÉ",
+          "BRANDING",
+          "IDENTITÉ VISUELLE",
+          "DESIGN SYSTEM",
+          "DÉVELOPPEMENT FULL STACK"
+        ]
+      },
       "rino": {
         "title": "Rino Bikes",
         "badges": [

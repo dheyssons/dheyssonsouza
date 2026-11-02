@@ -20,6 +20,18 @@
     "viewAll": "Bekijk projecten",
     "cards": {
       "inProgress": "In uitvoering",
+      "vitale": {
+        "viewCase": "Bekijk de case",
+        "title": "Vitale Imóveis",
+        "description": "Van marktonderzoek en merkpositionering tot een brandbook, designsysteem en de ontwikkeling van een compleet vastgoedplatform. Woningen zoeken, een omgeving voor adverteerders en een beheerpaneel met revisiebeheer, authenticatie en toegangsrechten, gebouwd met Next.js, TypeScript en Supabase.",
+        "badges": [
+          "MARKTONDERZOEK",
+          "BRANDING",
+          "VISUELE IDENTITEIT",
+          "DESIGNSYSTEEM",
+          "FULL STACK ONTWIKKELING"
+        ]
+      },
       "rino": {
         "title": "Rino Bikes",
         "badges": [

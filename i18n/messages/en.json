@@ -20,6 +20,18 @@
     "viewAll": "View projects",
     "cards": {
       "inProgress": "In progress",
+      "vitale": {
+        "viewCase": "View case study",
+        "title": "Vitale Imóveis",
+        "description": "From market research and brand positioning to a Brandbook, Design System and the development of a complete real estate platform. Property search, an advertiser area and an admin dashboard with revision control, authentication and permissions built with Next.js, TypeScript and Supabase.",
+        "badges": [
+          "MARKET RESEARCH",
+          "BRANDING",
+          "VISUAL IDENTITY",
+          "DESIGN SYSTEM",
+          "FULL STACK DEVELOPMENT"
+        ]
+      },
       "rino": {
         "title": "Rino Bikes",
         "badges": [
