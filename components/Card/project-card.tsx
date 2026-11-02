@@ -4,9 +4,10 @@ import Badge from "@/components/wrapper/Badge";
 import { motion, useAnimation, useMotionValue } from "framer-motion";
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import { ArrowUpRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 type Props = {
   image: any;
@@ -33,6 +34,7 @@ export default function ProjectCard({
   isInProgress = false,
   statusLabel = "In progress",
 }: Props) {
+  const t = useTranslations("projects.cards");
   const controls = useAnimation();
   const [showCursor, setShowCursor] = useState(false);
   const cursorX = useMotionValue(0);
@@ -63,7 +65,7 @@ export default function ProjectCard({
       <div className="line z-10 mb-10"></div>
       <div className="flex flex-col lg:flex-row justify-between gap-6 md:gap-16">
         {/* text */}
-        <div className="flex flex-col justify-between gap-y-10">
+        <div className="flex flex-col gap-y-8">
           <div className="flex flex-col items-start gap-6">
             {isInProgress && (
               <Badge className="bg-[#f0e2ca3a]! text-[#f49e0e]! border-[#f1ce90]!">
@@ -92,15 +94,9 @@ export default function ProjectCard({
             </div>
           </div>
 
-          {caseHref && caseLabel && (
-            <Link href={caseHref} className="inline-flex w-fit items-center gap-2 border-b border-current pb-1 text-sm font-medium transition-colors hover:text-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4">
-              {caseLabel} <ArrowUpRight aria-hidden="true" className="size-4" />
-            </Link>
-          )}
-
-          <div className="flex flex-row gap-16">
-            {kpis &&
-              kpis.map((kpi: any, index: any) => {
+          {kpis?.length > 0 && (
+            <div className="flex flex-row gap-16">
+              {kpis.map((kpi: any, index: any) => {
                 return (
                   <div key={index} className="flex flex-col">
                     <span className="text-2xl font-medium">{kpi.metric}</span>
@@ -108,7 +104,23 @@ export default function ProjectCard({
                   </div>
                 );
               })}
-          </div>
+            </div>
+          )}
+
+          {(href || (caseHref && caseLabel)) && (
+            <div className="flex flex-wrap gap-3">
+              {caseHref && caseLabel && (
+                <Link href={caseHref} className="inline-flex min-h-12 w-fit items-center gap-4 rounded-full bg-blue-600 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600">
+                  <ChevronRight aria-hidden="true" className="size-5" /> {caseLabel}
+                </Link>
+              )}
+              {href && (
+                <a href={href} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-12 w-fit items-center gap-4 rounded-full border border-font-primary bg-font-primary px-6 py-3 text-base font-medium text-white transition-colors hover:bg-white hover:text-font-primary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-font-primary">
+                  {t("viewSite")}
+                </a>
+              )}
+            </div>
+          )}
         </div>
 
         <a

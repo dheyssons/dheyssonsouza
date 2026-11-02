@@ -19,6 +19,7 @@
     "title": "Projets récents",
     "viewAll": "Voir les projets",
     "cards": {
+      "viewSite": "Voir le site",
       "inProgress": "En cours",
       "vitale": {
         "viewCase": "Voir le cas d’étude",

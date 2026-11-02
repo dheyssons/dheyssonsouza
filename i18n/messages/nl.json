@@ -19,6 +19,7 @@
     "title": "Recente projecten",
     "viewAll": "Bekijk projecten",
     "cards": {
+      "viewSite": "Bekijk website",
       "inProgress": "In uitvoering",
       "vitale": {
         "viewCase": "Bekijk de case",

@@ -42,6 +42,8 @@ export default function Home() {
     },
     {
       href: "https://hospitalsantaceciliarondonia.com",
+      caseHref: "https://www.behance.net/gallery/256197307/Caso-real-Website-hospital-UIUX-Design-SEO",
+      caseLabel: t("projects.cards.vitale.viewCase"),
       title: t("projects.cards.hospital.title"),
       badges: t.raw("projects.cards.hospital.badges") as string[],
       isInProgress: false,
